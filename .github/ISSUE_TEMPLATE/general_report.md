@@ -1,2 +1,3 @@
 ---
-name: Genera
+name: General issue
+about: General p
