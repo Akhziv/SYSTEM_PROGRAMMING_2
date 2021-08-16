@@ -1,3 +1,4 @@
 ---
 name: General issue
-about: General p
+about: General purpose issue template
+title: '
