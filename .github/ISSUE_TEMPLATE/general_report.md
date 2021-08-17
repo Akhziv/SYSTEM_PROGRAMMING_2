@@ -2,4 +2,5 @@
 name: General issue
 about: General purpose issue template
 title: ''
-labels: 'Status: Need
+labels: 'Status: Needs Triage'
+assignees: ''
