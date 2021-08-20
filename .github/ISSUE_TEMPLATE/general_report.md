@@ -13,4 +13,4 @@ assignees: ''
 
 
 **Other information and links**
-<!-- Add any other context or sc
+<!-- Add any other context or screenshots about the iss
