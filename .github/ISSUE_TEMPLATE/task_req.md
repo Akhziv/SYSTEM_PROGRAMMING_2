@@ -8,4 +8,4 @@ assignees: ''
 ---
 
 **Task summary**
-<!-- A clear and 
+<!-- A clear and concise description of what the 
