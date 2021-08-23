@@ -13,4 +13,4 @@ assignees: ''
 
 
 **Specification reference**
-<!-- Provide a referenc
+<!-- Provide a reference to the specification a
