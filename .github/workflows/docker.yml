@@ -1,1 +1,5 @@
-name: Build and publish Forest IAC Docker
+name: Build and publish Forest IAC Docker image
+
+on:
+  push:
+    br
