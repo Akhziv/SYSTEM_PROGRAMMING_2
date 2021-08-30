@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Cancel Previous Runs
-        us
+        uses: styfle/cancel-workflow-
