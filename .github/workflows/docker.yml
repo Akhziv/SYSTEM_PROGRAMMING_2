@@ -11,4 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - nam
+      - name: Cancel Previous Runs
+        us
