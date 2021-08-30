@@ -8,4 +8,7 @@ on:
 jobs:
   build-and-push-snapshot-iac-image:
     name: Build Docker Infrastructure image and push to repositories
-    runs-on: ubuntu-late
+    runs-on: ubuntu-latest
+
+    steps:
+      - nam
