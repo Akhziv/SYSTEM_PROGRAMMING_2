@@ -3,4 +3,7 @@ name: Build and publish Forest IAC Docker image
 on:
   push:
     branches: [main]
-  pull_re
+  pull_request:
+
+jobs:
+  build-and-push-
