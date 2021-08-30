@@ -7,4 +7,5 @@ on:
 
 jobs:
   build-and-push-snapshot-iac-image:
-    name: Build Docker Infrastructure image
+    name: Build Docker Infrastructure image and push to repositories
+  
