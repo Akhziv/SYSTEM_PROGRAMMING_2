@@ -14,4 +14,5 @@ jobs:
       - name: Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.11.0
         if: ${{ github.event_name == 'pull_request' }}
-        wit
+        with:
+          access_t
