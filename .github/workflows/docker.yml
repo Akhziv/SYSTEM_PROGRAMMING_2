@@ -16,4 +16,5 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
         with:
           access_token: ${{ github.token }}
-      - name: Checkou
+      - name: Checkout code
+        us
