@@ -17,4 +17,4 @@ jobs:
         with:
           access_token: ${{ github.token }}
       - name: Checkout code
-        us
+        uses: actions/checkout@
