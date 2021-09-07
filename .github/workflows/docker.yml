@@ -21,4 +21,4 @@ jobs:
 
       - name: Set up Docker Buildx
         id: buildx
-    
+        uses: docker/setup-bui
