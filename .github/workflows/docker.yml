@@ -30,4 +30,4 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - n
+      - name: Build daily snapshot ima
