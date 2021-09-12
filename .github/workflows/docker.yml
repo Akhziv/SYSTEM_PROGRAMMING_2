@@ -33,4 +33,5 @@ jobs:
       - name: Build daily snapshot image and push to GitHub Container Registry
         uses: docker/build-push-action@v4
         with:
-       
+          context: scripts/
+          file: s
