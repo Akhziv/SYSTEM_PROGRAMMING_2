@@ -31,4 +31,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build daily snapshot image and push to GitHub Container Registry
-        uses: docker/build-push-acti
+        uses: docker/build-push-action@v4
+        with:
+       
