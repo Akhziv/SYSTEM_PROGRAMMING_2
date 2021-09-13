@@ -35,3 +35,5 @@ jobs:
         with:
           context: scripts/
           file: scripts/Dockerfile-snapshot
+          tags: |
+       
