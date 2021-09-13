@@ -36,4 +36,4 @@ jobs:
           context: scripts/
           file: scripts/Dockerfile-snapshot
           tags: |
-       
+            ghcr.io/chain
