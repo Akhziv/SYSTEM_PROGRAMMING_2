@@ -37,4 +37,5 @@ jobs:
           file: scripts/Dockerfile-snapshot
           tags: |
             ghcr.io/chainsafe/sync-snapshot:latest
-          # build on feature branches, push onl
+          # build on feature branches, push only on main branch
+    
