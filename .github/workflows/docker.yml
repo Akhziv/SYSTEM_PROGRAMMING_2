@@ -39,4 +39,4 @@ jobs:
             ghcr.io/chainsafe/sync-snapshot:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
-     
+      - name: Daily snapshot I
