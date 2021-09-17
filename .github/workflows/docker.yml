@@ -38,4 +38,4 @@ jobs:
           tags: |
             ghcr.io/chainsafe/sync-snapshot:latest
           # build on feature branches, push only on main branch
-    
+          push: ${{ git
