@@ -40,4 +40,4 @@ jobs:
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
       - name: Daily snapshot Image digest
-        ru
+        run: echo ${{ steps.docker_bu
