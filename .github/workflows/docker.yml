@@ -41,4 +41,4 @@ jobs:
           push: ${{ github.ref == 'refs/heads/main' }}
       - name: Daily snapshot Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
-      - name: Bui
+      - name: Build sync check image and p
