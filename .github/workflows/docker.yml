@@ -42,4 +42,4 @@ jobs:
       - name: Daily snapshot Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
       - name: Build sync check image and push to GitHub Container Registry
-        uses: d
+        uses: docker/build-push-action@v
