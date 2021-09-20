@@ -44,4 +44,5 @@ jobs:
       - name: Build sync check image and push to GitHub Container Registry
         uses: docker/build-push-action@v4
         with:
-          context: s
+          context: scripts/
+          file: scr
