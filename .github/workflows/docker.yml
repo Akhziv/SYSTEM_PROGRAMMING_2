@@ -48,4 +48,5 @@ jobs:
           file: scripts/Dockerfile-sync-check
           tags: |
             ghcr.io/chainsafe/sync-check:latest
-          # build on feature branches,
+          # build on feature branches, push only on main branch
+         
