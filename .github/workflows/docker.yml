@@ -49,4 +49,5 @@ jobs:
           tags: |
             ghcr.io/chainsafe/sync-check:latest
           # build on feature branches, push only on main branch
-          push: ${{ github.ref ==
+          push: ${{ github.ref == 'refs/heads/main' }}
+ 
