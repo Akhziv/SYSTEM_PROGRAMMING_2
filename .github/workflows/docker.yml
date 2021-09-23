@@ -51,4 +51,4 @@ jobs:
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
       - name: Sync check Image digest
-        run: 
+        run: echo ${{ steps.do
