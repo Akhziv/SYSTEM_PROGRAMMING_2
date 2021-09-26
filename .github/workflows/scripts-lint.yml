@@ -1,4 +1,6 @@
 name: Scripts
 
 on:
-  pull_requ
+  pull_request:
+    branches:
+      -
