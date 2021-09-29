@@ -19,4 +19,6 @@ jobs:
       env:
         SHELLCHECK_OPTS: --external-sources
   rubocop:
-    runs-on: ubu
+    runs-on: ubuntu-latest
+    steps:
+      
