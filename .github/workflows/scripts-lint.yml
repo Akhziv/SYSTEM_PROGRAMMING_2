@@ -18,4 +18,5 @@ jobs:
       uses: ludeeus/action-shellcheck@2.0.0
       env:
         SHELLCHECK_OPTS: --external-sources
-  ru
+  rubocop:
+    runs-on: ubu
