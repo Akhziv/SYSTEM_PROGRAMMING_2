@@ -28,4 +28,5 @@ jobs:
           ruby-version: '3.0'
       - name: Run rubocop
         run: |
-          gem install rub
+          gem install rubocop --no-document
+          ru
