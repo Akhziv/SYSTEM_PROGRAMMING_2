@@ -1,3 +1,3 @@
 # 🌲 Forest IaC
 
-This repository cont
+This repository contains machine-readable spec
