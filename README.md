@@ -4,4 +4,4 @@ This repository contains machine-readable specifications for the auxillilary ser
 
 # 🔧 Desired properties
 
- - Requir
+ - Require minimal setup. Idea
