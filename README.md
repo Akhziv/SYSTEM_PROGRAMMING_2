@@ -4,4 +4,4 @@ This repository contains machine-readable specifications for the auxillilary ser
 
 # 🔧 Desired properties
 
- - Require minimal setup. Ideally any server with [docker](https://www
+ - Require minimal setup. Ideally any server with [docker](https://www.docker.com/) installed 
