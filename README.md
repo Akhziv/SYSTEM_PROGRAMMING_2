@@ -5,4 +5,5 @@ This repository contains machine-readable specifications for the auxillilary ser
 # 🔧 Desired properties
 
  - Require minimal setup. Ideally any server with [docker](https://www.docker.com/) installed should be sufficient.
- - Automatic and error-proof re-deployment when new infrastructure code is ava
+ - Automatic and error-proof re-deployment when new infrastructure code is available.
+ - Runs witho
