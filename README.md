@@ -8,4 +8,4 @@ This repository contains machine-readable specifications for the auxillilary ser
  - Automatic and error-proof re-deployment when new infrastructure code is available.
  - Runs without human intervention. The services should stay running unless explicitly stopped.
  - Fault tolerant.
- - Use a consistent strategy for 
+ - Use a consistent strategy for uploading/storing logs and r
