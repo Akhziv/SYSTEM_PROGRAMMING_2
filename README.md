@@ -9,4 +9,4 @@ This repository contains machine-readable specifications for the auxillilary ser
  - Runs without human intervention. The services should stay running unless explicitly stopped.
  - Fault tolerant.
  - Use a consistent strategy for uploading/storing logs and reporting errors.
- - Is idemp
+ - Is idempotent. Multiple instances 
