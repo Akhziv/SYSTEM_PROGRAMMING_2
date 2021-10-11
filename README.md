@@ -6,4 +6,4 @@ This repository contains machine-readable specifications for the auxillilary ser
 
  - Require minimal setup. Ideally any server with [docker](https://www.docker.com/) installed should be sufficient.
  - Automatic and error-proof re-deployment when new infrastructure code is available.
- - Runs without human intervention. The services should
+ - Runs without human intervention. The services should stay running unless explici
