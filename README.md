@@ -10,4 +10,6 @@ This repository contains machine-readable specifications for the auxillilary ser
  - Fault tolerant.
  - Use a consistent strategy for uploading/storing logs and reporting errors.
  - Is idempotent. Multiple instances can run without adverse effect.
- - Is sanity checked. Shell scripts with `shellcheck`, Ruby scripts with `RuboCop`, Rust
+ - Is sanity checked. Shell scripts with `shellcheck`, Ruby scripts with `RuboCop`, Rust with `clippy`.
+
+# ⚡ Servic
