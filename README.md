@@ -14,4 +14,5 @@ This repository contains machine-readable specifications for the auxillilary ser
 
 # ⚡ Services
 
-- [x] Daily calibnet sna
+- [x] Daily calibnet snapshots.
+- [x] Syn
