@@ -12,4 +12,6 @@ This repository contains machine-readable specifications for the auxillilary ser
  - Is idempotent. Multiple instances can run without adverse effect.
  - Is sanity checked. Shell scripts with `shellcheck`, Ruby scripts with `RuboCop`, Rust with `clippy`.
 
-# ⚡ Servic
+# ⚡ Services
+
+- [x] Daily calibnet sna
