@@ -15,4 +15,5 @@ This repository contains machine-readable specifications for the auxillilary ser
 # ⚡ Services
 
 - [x] Daily calibnet snapshots.
-- [x] Sync testing for For
+- [x] Sync testing for Forest docker image.
+-
