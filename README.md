@@ -15,4 +15,4 @@ This repository contains machine-readable specifications for the auxillilary ser
 # ⚡ Services
 
 - [x] Daily calibnet snapshots.
-- [x] Syn
+- [x] Sync testing for For
