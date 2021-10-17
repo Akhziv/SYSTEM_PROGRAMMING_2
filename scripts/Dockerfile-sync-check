@@ -4,4 +4,6 @@ FROM fedora:36
 RUN dnf install -y docker docker-compose ruby ruby-devel make gcc
 RUN gem install docker-api slack-ruby-client sys-filesystem
 
-WORKDIR /chain
+WORKDIR /chainsafe
+
+COPY ruby_commo
