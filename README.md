@@ -17,4 +17,5 @@ This repository contains machine-readable specifications for the auxillilary ser
 - [x] Daily calibnet snapshots.
 - [x] Sync testing for Forest docker image.
 - [ ] Exhaustive RPC testing for Forest docker image.
-- [ ] Sync testing for P
+- [ ] Sync testing for PRs.
+- [ ] Export te
