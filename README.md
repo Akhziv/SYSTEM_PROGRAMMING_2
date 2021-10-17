@@ -18,4 +18,4 @@ This repository contains machine-readable specifications for the auxillilary ser
 - [x] Sync testing for Forest docker image.
 - [ ] Exhaustive RPC testing for Forest docker image.
 - [ ] Sync testing for PRs.
-- [ ] Export te
+- [ ] Export testing for PRs.
