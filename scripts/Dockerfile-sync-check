@@ -1,4 +1,4 @@
 FROM fedora:36
 
 # Install dependencies
-RUN dnf ins
+RUN dnf install -y docker
