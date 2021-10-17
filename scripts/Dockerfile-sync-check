@@ -1,3 +1,4 @@
 FROM fedora:36
 
-# Inst
+# Install dependencies
+RUN dnf ins
