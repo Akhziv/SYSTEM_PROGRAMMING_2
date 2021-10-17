@@ -1,4 +1,5 @@
 FROM fedora:36
 
 # Install dependencies
-RUN dnf install -y docker docker-compose ruby ruby-devel 
+RUN dnf install -y docker docker-compose ruby ruby-devel make gcc
+RUN gem install docke
