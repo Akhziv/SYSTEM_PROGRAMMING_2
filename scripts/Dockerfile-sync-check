@@ -6,4 +6,5 @@ RUN gem install docker-api slack-ruby-client sys-filesystem
 
 WORKDIR /chainsafe
 
-COPY ruby_commo
+COPY ruby_common ruby_common
+COPY sync_c
