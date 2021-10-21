@@ -8,4 +8,4 @@ WORKDIR /chainsafe
 
 COPY ruby_common ruby_common
 COPY sync_check/* ./
-ENTRYPOINT ["/bin/bash", "run_s
+ENTRYPOINT ["/bin/bash", "run_service.sh"]
