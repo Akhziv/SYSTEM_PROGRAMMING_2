@@ -1,3 +1,3 @@
 # Nightly snapshot uploads
 
-This se
+This service will continuous
