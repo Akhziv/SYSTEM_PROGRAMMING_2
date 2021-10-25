@@ -5,4 +5,5 @@ day, this service will sync to calibnet and export a new snapshot. If the
 previous snapshot is more than a day old, the new snapshot is uploaded to
 Digital Ocean Spaces.
 
-## Pre
+## Prerequisites
+* Linux server wi
