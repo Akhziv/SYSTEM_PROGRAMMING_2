@@ -6,4 +6,4 @@ previous snapshot is more than a day old, the new snapshot is uploaded to
 Digital Ocean Spaces.
 
 ## Prerequisites
-* Linux server wi
+* Linux server with decent specs. Battle-test
