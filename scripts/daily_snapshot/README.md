@@ -9,4 +9,7 @@ Digital Ocean Spaces.
 * Linux server with decent specs. Battle-tested on:
 ```
 Fedora Linux 36 (Cloud Edition) x86_64
-8 vCPU
+8 vCPUs
+16GB / 320GB Disk
+```
+*
