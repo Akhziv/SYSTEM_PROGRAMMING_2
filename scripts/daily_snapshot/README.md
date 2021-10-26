@@ -8,4 +8,5 @@ Digital Ocean Spaces.
 ## Prerequisites
 * Linux server with decent specs. Battle-tested on:
 ```
-Fedora Linux 36 (C
+Fedora Linux 36 (Cloud Edition) x86_64
+8 vCPU
