@@ -15,4 +15,5 @@ Fedora Linux 36 (Cloud Edition) x86_64
 * Docker: https://docs.docker.com/get-docker/
 * Slack api token.
 
-## Insta
+## Installation
+* Put Digital O
