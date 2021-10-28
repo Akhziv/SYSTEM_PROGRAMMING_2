@@ -13,4 +13,6 @@ Fedora Linux 36 (Cloud Edition) x86_64
 16GB / 320GB Disk
 ```
 * Docker: https://docs.docker.com/get-docker/
-* Slack 
+* Slack api token.
+
+## Insta
