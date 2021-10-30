@@ -16,4 +16,4 @@ Fedora Linux 36 (Cloud Edition) x86_64
 * Slack api token.
 
 ## Installation
-* Put Digital O
+* Put Digital Ocean Spaces password an
