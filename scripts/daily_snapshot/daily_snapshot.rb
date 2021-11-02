@@ -1,3 +1,3 @@
 # frozen_string_literal: true
 
-require
+require_relative 'ruby_common/slack_
