@@ -18,4 +18,4 @@ Fedora Linux 36 (Cloud Edition) x86_64
 ## Installation
 * Put Digital Ocean Spaces password and slack api token in `.env`
 * Run `./boot-service`
-* To use the enviromental variables, create a new file called `
+* To use the enviromental variables, create a new file called `.env` before adding the cr
