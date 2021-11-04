@@ -2,4 +2,5 @@
 
 require_relative 'ruby_common/slack_client'
 require_relative 'ruby_common/docker_utils'
-require_relative
+require_relative 'ruby_common/utils'
+requir
