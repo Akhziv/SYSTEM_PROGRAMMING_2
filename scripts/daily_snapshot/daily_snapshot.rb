@@ -7,4 +7,5 @@ require_relative 'snapshots_prune'
 
 require 'date'
 require 'logger'
-require 'fi
+require 'fileutils'
+require 'acti
