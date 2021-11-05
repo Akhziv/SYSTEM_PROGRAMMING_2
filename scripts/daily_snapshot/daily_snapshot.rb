@@ -9,3 +9,5 @@ require 'date'
 require 'logger'
 require 'fileutils'
 require 'active_support/time'
+
+BASE_FOLDER = get_an
