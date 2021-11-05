@@ -8,4 +8,4 @@ require_relative 'snapshots_prune'
 require 'date'
 require 'logger'
 require 'fileutils'
-require 'acti
+require 'active_support/time'
