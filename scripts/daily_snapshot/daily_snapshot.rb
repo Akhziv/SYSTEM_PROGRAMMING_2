@@ -10,4 +10,5 @@ require 'logger'
 require 'fileutils'
 require 'active_support/time'
 
-BASE_FOLDER = get_and_assert_env_varia
+BASE_FOLDER = get_and_assert_env_variable 'BASE_FOLDER'
+SLACK_TOKEN = get
