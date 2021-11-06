@@ -10,4 +10,4 @@ require 'logger'
 require 'fileutils'
 require 'active_support/time'
 
-BASE_FOLDER = get_an
+BASE_FOLDER = get_and_assert_env_varia
