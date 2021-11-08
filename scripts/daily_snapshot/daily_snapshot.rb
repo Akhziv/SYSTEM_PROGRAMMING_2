@@ -12,4 +12,6 @@ require 'active_support/time'
 
 BASE_FOLDER = get_and_assert_env_variable 'BASE_FOLDER'
 SLACK_TOKEN = get_and_assert_env_variable 'SLACK_API_TOKEN'
-CHANNEL = get_and_assert_env_vari
+CHANNEL = get_and_assert_env_variable 'SLACK_NOTIF_CHANNEL'
+
+C
