@@ -17,4 +17,4 @@ CHANNEL = get_and_assert_env_variable 'SLACK_NOTIF_CHANNEL'
 CHAIN_NAME = ARGV[0]
 raise 'No chain name supplied. Please provide chain identifier, e.g. calibnet or mainnet' if ARGV.empty?
 
-# Current datetime
+# Current datetime, to append to the log fil
