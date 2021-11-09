@@ -15,4 +15,4 @@ SLACK_TOKEN = get_and_assert_env_variable 'SLACK_API_TOKEN'
 CHANNEL = get_and_assert_env_variable 'SLACK_NOTIF_CHANNEL'
 
 CHAIN_NAME = ARGV[0]
-raise 'No chain name supplied. Please provide chain identifier, e.g. calibnet or m
+raise 'No chain name supplied. Please provide chain identifier, e.g. calibnet or mainnet' if ARGV.empt
