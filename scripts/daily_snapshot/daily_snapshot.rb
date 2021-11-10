@@ -18,4 +18,5 @@ CHAIN_NAME = ARGV[0]
 raise 'No chain name supplied. Please provide chain identifier, e.g. calibnet or mainnet' if ARGV.empty?
 
 # Current datetime, to append to the log files
-DATE = Time.new.strftime '%FT%H
+DATE = Time.new.strftime '%FT%H:%M:%S'
+LOG_EXPORT = "#{C
