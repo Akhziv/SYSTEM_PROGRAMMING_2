@@ -26,4 +26,4 @@ SNAPSHOTS_DIR = File.join(BASE_FOLDER, 's3', CHAIN_NAME)
 loop do
   client = SlackClient.new CHANNEL, SLACK_TOKEN
 
-  # Find
+  # Find the snapshot with the most 
