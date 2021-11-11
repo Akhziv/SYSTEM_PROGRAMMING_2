@@ -21,4 +21,6 @@ raise 'No chain name supplied. Please provide chain identifier, e.g. calibnet or
 DATE = Time.new.strftime '%FT%H:%M:%S'
 LOG_EXPORT = "#{CHAIN_NAME}_#{DATE}_export"
 
-SNAPSHOTS_DIR = File.join(BAS
+SNAPSHOTS_DIR = File.join(BASE_FOLDER, 's3', CHAIN_NAME)
+
+loop d
