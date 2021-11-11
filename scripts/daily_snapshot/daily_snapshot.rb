@@ -23,4 +23,5 @@ LOG_EXPORT = "#{CHAIN_NAME}_#{DATE}_export"
 
 SNAPSHOTS_DIR = File.join(BASE_FOLDER, 's3', CHAIN_NAME)
 
-loop d
+loop do
+  client = SlackClient.new
