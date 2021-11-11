@@ -19,4 +19,4 @@ raise 'No chain name supplied. Please provide chain identifier, e.g. calibnet or
 
 # Current datetime, to append to the log files
 DATE = Time.new.strftime '%FT%H:%M:%S'
-LOG_EXPORT = "#{C
+LOG_EXPORT = "#{CHAIN_NAME}_#{DATE}_export"
