@@ -29,4 +29,4 @@ loop do
   # Find the snapshot with the most recent modification date
   latest = Dir.glob(File.join(SNAPSHOTS_DIR, '/*.car')).max_by { |f| File.mtime(f) }
 
-  # Check if the date of the 
+  # Check if the date of the most recent snapshot is toda
