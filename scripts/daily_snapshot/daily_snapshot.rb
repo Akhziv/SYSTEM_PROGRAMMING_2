@@ -32,4 +32,4 @@ loop do
   # Check if the date of the most recent snapshot is today
   if Time.new.to_date == File.stat(latest).mtime.to_date
     # We already have a snapshot for today. Do nothing.
-    puts "No sn
+    puts "No snapshot required for #{CHA
