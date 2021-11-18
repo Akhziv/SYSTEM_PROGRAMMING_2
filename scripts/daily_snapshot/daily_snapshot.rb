@@ -34,4 +34,6 @@ loop do
     # We already have a snapshot for today. Do nothing.
     puts "No snapshot required for #{CHAIN_NAME}"
   else
-    puts 'New snapshot
+    puts 'New snapshot required'
+
+    # Sync
