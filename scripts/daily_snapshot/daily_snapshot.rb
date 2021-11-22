@@ -37,4 +37,4 @@ loop do
     puts 'New snapshot required'
 
     # Sync and export snapshot
-    snapshot_u
+    snapshot_uploaded = system("bash u
