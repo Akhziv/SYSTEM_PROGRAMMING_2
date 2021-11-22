@@ -39,4 +39,5 @@ loop do
     # Sync and export snapshot
     snapshot_uploaded = system("bash upload_snapshot.sh #{CHAIN_NAME} #{latest} > #{LOG_EXPORT} 2>&1")
 
-    if s
+    if snapshot_uploaded
+      cli
