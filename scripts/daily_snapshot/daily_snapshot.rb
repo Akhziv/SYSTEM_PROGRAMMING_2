@@ -36,4 +36,5 @@ loop do
   else
     puts 'New snapshot required'
 
-    # Sync and export snapsh
+    # Sync and export snapshot
+    snapshot_u
