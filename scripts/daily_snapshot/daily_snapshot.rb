@@ -37,4 +37,4 @@ loop do
     puts 'New snapshot required'
 
     # Sync and export snapshot
-    snapshot_uploaded = system("bash upload_snapshot.sh #{
+    snapshot_uploaded = system("bash upload_snapshot.sh #{CHAIN_NAME} #{latest} > #{LO
