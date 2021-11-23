@@ -46,4 +46,4 @@ loop do
     end
 
     # attach the log file and print the contents to STDOUT
-    cli
+    client.attach_files(LOG_EXPORT)
