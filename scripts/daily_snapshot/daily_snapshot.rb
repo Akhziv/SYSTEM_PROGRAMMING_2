@@ -40,4 +40,4 @@ loop do
     snapshot_uploaded = system("bash upload_snapshot.sh #{CHAIN_NAME} #{latest} > #{LOG_EXPORT} 2>&1")
 
     if snapshot_uploaded
-      client.post_message "✅ Snapshot
+      client.post_message "✅ Snapshot uploaded for #{CHA
