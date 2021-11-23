@@ -42,4 +42,4 @@ loop do
     if snapshot_uploaded
       client.post_message "✅ Snapshot uploaded for #{CHAIN_NAME}. 🌲🌳🌲🌳🌲"
     else
- 
+      client.post_message "⛔ Snapsho
