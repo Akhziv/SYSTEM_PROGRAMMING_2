@@ -45,4 +45,4 @@ loop do
       client.post_message "⛔ Snapshot failed for #{CHAIN_NAME}. 🔥🌲🔥 "
     end
 
-    # attach 
+    # attach the log file and print the con
