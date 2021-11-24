@@ -50,4 +50,4 @@ loop do
     puts "Snapshot export log:\n#{File.read(LOG_EXPORT)}"
 
     # Prune snapshots
-    
+    pruned = prune_snapshots(SNAPSH
