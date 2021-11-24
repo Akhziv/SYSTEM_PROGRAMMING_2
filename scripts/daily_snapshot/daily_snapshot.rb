@@ -47,4 +47,4 @@ loop do
 
     # attach the log file and print the contents to STDOUT
     client.attach_files(LOG_EXPORT)
-    puts "Snapshot export log:\n
+    puts "Snapshot export log:\n#{File.read(LOG_EXPORT)}"
