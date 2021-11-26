@@ -51,4 +51,4 @@ loop do
 
     # Prune snapshots
     pruned = prune_snapshots(SNAPSHOTS_DIR)
-    client.attach_comment("Pru
+    client.attach_comment("Pruned snapshots: `#{prune
