@@ -51,4 +51,5 @@ loop do
 
     # Prune snapshots
     pruned = prune_snapshots(SNAPSHOTS_DIR)
-    client.attach_comment("Pruned snapshots: `#{pruned.join(', ')}`") un
+    client.attach_comment("Pruned snapshots: `#{pruned.join(', ')}`") unless pruned.empty?
+  en
