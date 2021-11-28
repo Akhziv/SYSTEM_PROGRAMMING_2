@@ -54,4 +54,4 @@ loop do
     client.attach_comment("Pruned snapshots: `#{pruned.join(', ')}`") unless pruned.empty?
   end
 
-  # Loop such that 
+  # Loop such that a new snapshot will be update
