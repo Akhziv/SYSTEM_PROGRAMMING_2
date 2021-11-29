@@ -4,4 +4,6 @@ AWS_SECRET_ACCESS_KEY=
 SLACK_API_TOKEN=
 SLACK_NOTIF_CHANNEL=
 
-# You usually don't want to change thes
+# You usually don't want to change these:
+FOREST_TAG=latest
+BASE_FOLD
