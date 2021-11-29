@@ -54,4 +54,5 @@ loop do
     client.attach_comment("Pruned snapshots: `#{pruned.join(', ')}`") unless pruned.empty?
   end
 
-  # Loop such that a new snapshot will be update
+  # Loop such that a new snapshot will be updated once per day.
+  sleep(1.hour
