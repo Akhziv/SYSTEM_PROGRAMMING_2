@@ -6,4 +6,4 @@ SLACK_NOTIF_CHANNEL=
 
 # You usually don't want to change these:
 FOREST_TAG=latest
-BASE_FOLD
+BASE_FOLDER=/tmp/forest-iac-snapshots
