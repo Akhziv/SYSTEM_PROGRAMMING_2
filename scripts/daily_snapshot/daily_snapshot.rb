@@ -55,4 +55,5 @@ loop do
   end
 
   # Loop such that a new snapshot will be updated once per day.
-  sleep(1.hour
+  sleep(1.hour)
+end
