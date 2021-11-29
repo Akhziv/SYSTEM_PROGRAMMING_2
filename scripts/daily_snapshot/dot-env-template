@@ -1,3 +1,4 @@
 # Definitely need to define these:
 AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACC
+AWS_SECRET_ACCESS_KEY=
+SLACK_API
