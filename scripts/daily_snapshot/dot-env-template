@@ -4,4 +4,4 @@ AWS_SECRET_ACCESS_KEY=
 SLACK_API_TOKEN=
 SLACK_NOTIF_CHANNEL=
 
-# You usually don
+# You usually don't want to change thes
