@@ -10,4 +10,5 @@ S3_FOLDER=$BASE_FOLDER/s3
 #    if there isn't one for today already.
 
 ## Setup s3
-umount "$S3_FOLDE
+umount "$S3_FOLDER" || true
+mkdir --parents "$S3
