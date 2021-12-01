@@ -9,4 +9,5 @@ S3_FOLDER=$BASE_FOLDER/s3
 # 3. Run Ruby script for exporting and uploading a new snapshot
 #    if there isn't one for today already.
 
-## Setup
+## Setup s3
+umount "$S3_FOLDE
