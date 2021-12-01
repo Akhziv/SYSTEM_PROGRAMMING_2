@@ -13,4 +13,5 @@ S3_FOLDER=$BASE_FOLDER/s3
 umount "$S3_FOLDER" || true
 mkdir --parents "$S3_FOLDER"
 
-s3fs forest-snaps
+s3fs forest-snapshots "$S3_FOLDER" \
+    -
