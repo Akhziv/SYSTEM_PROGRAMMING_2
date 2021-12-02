@@ -18,4 +18,4 @@ s3fs forest-snapshots "$S3_FOLDER" \
     -o url=https://fra1.digitaloceanspaces.com/ \
     -o allow_other
 
-## En
+## Ensure watchtower is runnin
