@@ -16,4 +16,6 @@ mkdir --parents "$S3_FOLDER"
 s3fs forest-snapshots "$S3_FOLDER" \
     -o default_acl=public-read \
     -o url=https://fra1.digitaloceanspaces.com/ \
-    -
+    -o allow_other
+
+## En
