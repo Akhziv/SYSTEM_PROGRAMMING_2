@@ -19,4 +19,5 @@ s3fs forest-snapshots "$S3_FOLDER" \
     -o allow_other
 
 ## Ensure watchtower is running
-docker stop watcht
+docker stop watchtower 2> /dev/null || true
+do
