@@ -23,4 +23,4 @@ docker stop watchtower 2> /dev/null || true
 docker wait watchtower 2> /dev/null || true
 docker run --rm \
     --detach \
-    -v /var/run
+    -v /var/run/docker.sock:/var/run/d
