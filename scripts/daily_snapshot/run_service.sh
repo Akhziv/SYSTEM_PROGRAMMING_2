@@ -26,4 +26,4 @@ docker run --rm \
     -v /var/run/docker.sock:/var/run/docker.sock \
     --name watchtower \
     containrrr/watchtower \
-    --label-enable --i
+    --label-enable --include-stopped --revive-stop
