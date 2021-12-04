@@ -25,4 +25,5 @@ docker run --rm \
     --detach \
     -v /var/run/docker.sock:/var/run/docker.sock \
     --name watchtower \
-    containrrr/watcht
+    containrrr/watchtower \
+    --label-enable --i
