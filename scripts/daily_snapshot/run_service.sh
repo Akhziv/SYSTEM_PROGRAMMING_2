@@ -28,4 +28,4 @@ docker run --rm \
     containrrr/watchtower \
     --label-enable --include-stopped --revive-stopped --stop-timeout 120s --interval 600
 
-# E
+# Export and upload snapshot
