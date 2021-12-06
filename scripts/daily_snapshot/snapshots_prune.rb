@@ -1,1 +1,3 @@
-# frozen_string_l
+# frozen_string_literal: true
+
+require 'date'
