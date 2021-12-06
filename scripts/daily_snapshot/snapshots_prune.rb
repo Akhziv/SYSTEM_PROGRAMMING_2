@@ -3,4 +3,4 @@
 require 'date'
 require 'pathname'
 
-# Class
+# Class representing a snap
