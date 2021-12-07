@@ -4,4 +4,5 @@ require 'date'
 require 'pathname'
 
 # Class representing a snapshot bucket with a defined number of entries.
-class Snap
+class SnapshotBucket
+  def initi
