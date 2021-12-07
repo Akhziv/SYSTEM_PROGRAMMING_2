@@ -5,4 +5,5 @@ require 'pathname'
 
 # Class representing a snapshot bucket with a defined number of entries.
 class SnapshotBucket
-  def initi
+  def initialize(max_entries = nil)
+    @
