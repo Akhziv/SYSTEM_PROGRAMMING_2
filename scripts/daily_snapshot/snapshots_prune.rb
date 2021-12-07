@@ -3,4 +3,5 @@
 require 'date'
 require 'pathname'
 
-# Class representing a snapshot bucket with a defi
+# Class representing a snapshot bucket with a defined number of entries.
+class Snap
