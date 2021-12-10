@@ -9,3 +9,5 @@ class SnapshotBucket
     @max_entries = max_entries
     @entries = Set.new
   end
+
+  # Adds an entry to the b
