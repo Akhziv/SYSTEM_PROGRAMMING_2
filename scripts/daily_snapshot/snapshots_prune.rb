@@ -10,4 +10,4 @@ class SnapshotBucket
     @entries = Set.new
   end
 
-  # Adds an entry to the bucket unless it is alre
+  # Adds an entry to the bucket unless it is already full or already contains 
