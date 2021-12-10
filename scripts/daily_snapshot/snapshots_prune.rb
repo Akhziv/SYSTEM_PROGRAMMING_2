@@ -7,4 +7,5 @@ require 'pathname'
 class SnapshotBucket
   def initialize(max_entries = nil)
     @max_entries = max_entries
-  
+    @entries = Set.new
+  end
