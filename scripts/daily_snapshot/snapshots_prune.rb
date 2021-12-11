@@ -11,4 +11,6 @@ class SnapshotBucket
   end
 
   # Adds an entry to the bucket unless it is already full or already contains the key.
-  # Return false on insert fai
+  # Return false on insert failure.
+  def add?(entry)
+    retur
