@@ -11,4 +11,4 @@ class SnapshotBucket
   end
 
   # Adds an entry to the bucket unless it is already full or already contains the key.
-  # Return 
+  # Return false on insert fai
