@@ -15,4 +15,6 @@ class SnapshotBucket
   def add?(entry)
     return false if !@max_entries.nil? && @entries.size >= @max_entries
 
-    !@entries
+    !@entries.add?(entry).nil?
+  end
+e
