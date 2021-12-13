@@ -13,4 +13,4 @@ class SnapshotBucket
   # Adds an entry to the bucket unless it is already full or already contains the key.
   # Return false on insert failure.
   def add?(entry)
-    return false if !@max_entries.
+    return false if !@max_entries.nil? && @entries.size >= @max_entr
