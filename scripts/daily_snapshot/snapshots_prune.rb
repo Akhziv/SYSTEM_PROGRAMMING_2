@@ -17,4 +17,6 @@ class SnapshotBucket
 
     !@entries.add?(entry).nil?
   end
-e
+end
+
+# Represents Day B
