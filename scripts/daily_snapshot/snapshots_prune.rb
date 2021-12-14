@@ -20,4 +20,5 @@ class SnapshotBucket
 end
 
 # Represents Day Bucket. They key is the date.
-class DayBucket
+class DayBucket < SnapshotBucket
+  de
