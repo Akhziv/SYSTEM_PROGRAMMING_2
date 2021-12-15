@@ -21,4 +21,5 @@ end
 
 # Represents Day Bucket. They key is the date.
 class DayBucket < SnapshotBucket
-  de
+  def add?(entry)
+    supe
