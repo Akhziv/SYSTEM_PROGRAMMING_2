@@ -22,4 +22,8 @@ end
 # Represents Day Bucket. They key is the date.
 class DayBucket < SnapshotBucket
   def add?(entry)
-    supe
+    super File.mtime(entry).to_date
+  end
+end
+
+#
