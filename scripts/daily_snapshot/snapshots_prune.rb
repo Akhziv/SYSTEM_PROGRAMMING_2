@@ -26,4 +26,4 @@ class DayBucket < SnapshotBucket
   end
 end
 
-#
+# Represents Weeks Bucket. The
