@@ -26,4 +26,4 @@ class DayBucket < SnapshotBucket
   end
 end
 
-# Represents Weeks Bucket. The
+# Represents Weeks Bucket. The key is "WWYY" (week starts on Monday).
