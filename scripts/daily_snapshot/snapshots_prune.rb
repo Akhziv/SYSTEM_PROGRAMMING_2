@@ -28,4 +28,5 @@ end
 
 # Represents Weeks Bucket. The key is "WWYY" (week starts on Monday).
 class WeeksBucket < SnapshotBucket
-  de
+  def add?(entry)
+    super F
