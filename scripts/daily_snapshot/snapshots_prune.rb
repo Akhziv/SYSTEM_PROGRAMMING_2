@@ -32,3 +32,5 @@ class WeeksBucket < SnapshotBucket
     super File.mtime(entry).to_date.strftime('%m%y')
   end
 end
+
+# Represents Months Bucket.
