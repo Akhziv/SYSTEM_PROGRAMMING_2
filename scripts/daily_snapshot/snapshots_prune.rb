@@ -29,4 +29,6 @@ end
 # Represents Weeks Bucket. The key is "WWYY" (week starts on Monday).
 class WeeksBucket < SnapshotBucket
   def add?(entry)
-    super File.mtime(entry).to_d
+    super File.mtime(entry).to_date.strftime('%m%y')
+  end
+end
