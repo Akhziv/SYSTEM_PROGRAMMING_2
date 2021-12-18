@@ -33,4 +33,5 @@ class WeeksBucket < SnapshotBucket
   end
 end
 
-# Represents Months Bucket.
+# Represents Months Bucket. The key is "MMYY"
+class MonthsBu
