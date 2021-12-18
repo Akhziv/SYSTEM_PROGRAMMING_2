@@ -34,4 +34,5 @@ class WeeksBucket < SnapshotBucket
 end
 
 # Represents Months Bucket. The key is "MMYY"
-class MonthsBu
+class MonthsBucket < SnapshotBucket
+  def add?(
