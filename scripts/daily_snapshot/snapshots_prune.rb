@@ -36,4 +36,8 @@ end
 # Represents Months Bucket. The key is "MMYY"
 class MonthsBucket < SnapshotBucket
   def add?(entry)
-    super File.mtime(entry).to_date.strftime('%
+    super File.mtime(entry).to_date.strftime('%m%y')
+  end
+end
+
+# Prune
