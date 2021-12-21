@@ -41,4 +41,4 @@ class MonthsBucket < SnapshotBucket
 end
 
 # Prunes snapshots directory with the following retention policy:
-# * keep all sna
+# * keep all snapshots generated in th
