@@ -40,4 +40,4 @@ class MonthsBucket < SnapshotBucket
   end
 end
 
-# Prunes snapshots directory with the f
+# Prunes snapshots directory with the following retention polic
