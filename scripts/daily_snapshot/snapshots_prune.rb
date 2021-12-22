@@ -46,4 +46,4 @@ end
 # * keep one snapshot per month after 4 weeks.
 #
 # Returns pruned snapshots' filenames.
-def prune_
+def prune_snapshots(snapshots_direc
