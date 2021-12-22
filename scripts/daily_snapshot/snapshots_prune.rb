@@ -41,4 +41,5 @@ class MonthsBucket < SnapshotBucket
 end
 
 # Prunes snapshots directory with the following retention policy:
-# * keep all snapshots generated in th
+# * keep all snapshots generated in the last 7 days,
+# * k
