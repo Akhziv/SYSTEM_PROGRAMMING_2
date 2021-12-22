@@ -45,4 +45,4 @@ end
 # * keep one snapshot per week for the last 4 weeks,
 # * keep one snapshot per month after 4 weeks.
 #
-#
+# Returns pruned snapsho
