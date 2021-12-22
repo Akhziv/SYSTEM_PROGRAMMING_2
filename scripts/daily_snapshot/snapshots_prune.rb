@@ -42,4 +42,4 @@ end
 
 # Prunes snapshots directory with the following retention policy:
 # * keep all snapshots generated in the last 7 days,
-# * keep one snapshot p
+# * keep one snapshot per week for th
