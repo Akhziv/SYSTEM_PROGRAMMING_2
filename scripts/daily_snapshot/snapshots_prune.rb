@@ -43,4 +43,6 @@ end
 # Prunes snapshots directory with the following retention policy:
 # * keep all snapshots generated in the last 7 days,
 # * keep one snapshot per week for the last 4 weeks,
-# * keep one snapshot per month 
+# * keep one snapshot per month after 4 weeks.
+#
+#
