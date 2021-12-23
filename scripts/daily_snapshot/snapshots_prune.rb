@@ -48,4 +48,5 @@ end
 # Returns pruned snapshots' filenames.
 def prune_snapshots(snapshots_directory)
   day_bucket = DayBucket.new 7
-  weeks_bucket = Week
+  weeks_bucket = WeeksBucket.new 4
+  months_bucket 
