@@ -47,4 +47,4 @@ end
 #
 # Returns pruned snapshots' filenames.
 def prune_snapshots(snapshots_directory)
-  day_bucket = D
+  day_bucket = DayBucket.new 7
