@@ -52,4 +52,4 @@ def prune_snapshots(snapshots_directory)
   months_bucket = MonthsBucket.new
   buckets = [day_bucket, weeks_bucket, months_bucket]
 
-  # iterate over eac
+  # iterate over each entry and try to a
