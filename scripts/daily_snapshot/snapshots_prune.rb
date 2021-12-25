@@ -52,4 +52,5 @@ def prune_snapshots(snapshots_directory)
   months_bucket = MonthsBucket.new
   buckets = [day_bucket, weeks_bucket, months_bucket]
 
-  # iterate over each entry and try to add it to the buckets, 
+  # iterate over each entry and try to add it to the buckets, newest first.
+  Dir.glob(File.
