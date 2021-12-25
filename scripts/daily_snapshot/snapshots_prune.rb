@@ -50,4 +50,4 @@ def prune_snapshots(snapshots_directory)
   day_bucket = DayBucket.new 7
   weeks_bucket = WeeksBucket.new 4
   months_bucket = MonthsBucket.new
-  buckets = [day_bucket, we
+  buckets = [day_bucket, weeks_bucket, months_bucket
