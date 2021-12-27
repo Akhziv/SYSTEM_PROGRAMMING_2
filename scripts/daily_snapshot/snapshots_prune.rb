@@ -57,4 +57,7 @@ def prune_snapshots(snapshots_directory)
      .sort_by { |f| File.mtime(f) }
      .reverse
      .reject  { |f| buckets.any? { |bucket| bucket.add? f } }
-     .each    { |f
+     .each    { |f| remove_snapshot f }
+end
+
+#
