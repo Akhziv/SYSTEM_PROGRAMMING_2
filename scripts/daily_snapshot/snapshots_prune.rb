@@ -55,4 +55,5 @@ def prune_snapshots(snapshots_directory)
   # iterate over each entry and try to add it to the buckets, newest first.
   Dir.glob(File.join(snapshots_directory, '*.car'))
      .sort_by { |f| File.mtime(f) }
-     .r
+     .reverse
+     .reject  { |f
