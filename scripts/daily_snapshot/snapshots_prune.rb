@@ -56,4 +56,4 @@ def prune_snapshots(snapshots_directory)
   Dir.glob(File.join(snapshots_directory, '*.car'))
      .sort_by { |f| File.mtime(f) }
      .reverse
-     .reject  { |f
+     .reject  { |f| buckets.any? { |b
