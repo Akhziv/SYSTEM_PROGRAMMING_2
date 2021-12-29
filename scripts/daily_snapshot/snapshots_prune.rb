@@ -60,4 +60,4 @@ def prune_snapshots(snapshots_directory)
      .each    { |f| remove_snapshot f }
 end
 
-# Removes the snapshot and o
+# Removes the snapshot and optionally the related check
