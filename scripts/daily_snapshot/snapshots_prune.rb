@@ -62,3 +62,4 @@ end
 
 # Removes the snapshot and optionally the related checksum file if it exists.
 def remove_snapshot(snapshot)
+  checksum = Pathname.new(s
