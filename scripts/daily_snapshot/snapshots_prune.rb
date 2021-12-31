@@ -64,4 +64,5 @@ end
 def remove_snapshot(snapshot)
   checksum = Pathname.new(snapshot).sub_ext('.sha256sum')
   File.delete checksum if checksum.file?
-  File.de
+  File.delete snapshot
+end
