@@ -1,3 +1,3 @@
 #!/bin/bash
 
-# If Fore
+# If Forest hasn't synced to the
