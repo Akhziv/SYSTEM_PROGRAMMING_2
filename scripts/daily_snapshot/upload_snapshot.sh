@@ -4,4 +4,8 @@
 SYNC_TIMEOUT=90m
 
 if [[ $# != 2 ]]; then
-  echo "Usage: bash $0 CHAIN_NAME SNAPSH
+  echo "Usage: bash $0 CHAIN_NAME SNAPSHOT_PATH"
+  exit 1
+fi
+
+CHAIN_N
