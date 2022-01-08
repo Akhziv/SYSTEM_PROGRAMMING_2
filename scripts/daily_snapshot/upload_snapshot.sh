@@ -4,3 +4,4 @@
 SYNC_TIMEOUT=90m
 
 if [[ $# != 2 ]]; then
+  echo "Usage: bash $
