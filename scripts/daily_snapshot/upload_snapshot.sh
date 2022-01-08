@@ -1,3 +1,4 @@
 #!/bin/bash
 
-# If Forest hasn't synced to the network after 90 minutes, something has gone
+# If Forest hasn't synced to the network after 90 minutes, something has gone wrong.
+SYN
