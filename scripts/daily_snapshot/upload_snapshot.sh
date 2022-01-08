@@ -4,4 +4,4 @@
 SYNC_TIMEOUT=90m
 
 if [[ $# != 2 ]]; then
-  echo "Usage: bash $
+  echo "Usage: bash $0 CHAIN_NAME SNAPSH
