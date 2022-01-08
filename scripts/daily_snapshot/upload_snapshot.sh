@@ -8,4 +8,5 @@ if [[ $# != 2 ]]; then
   exit 1
 fi
 
-CHAIN_N
+CHAIN_NAME=$1
+NEWEST_SNAPSHOT=
