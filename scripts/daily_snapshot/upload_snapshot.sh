@@ -9,4 +9,6 @@ if [[ $# != 2 ]]; then
 fi
 
 CHAIN_NAME=$1
-NEWEST_SNAPSHOT=
+NEWEST_SNAPSHOT=$2
+
+# Make sure we have
