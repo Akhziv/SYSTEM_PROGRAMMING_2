@@ -14,4 +14,5 @@ NEWEST_SNAPSHOT=$2
 # Make sure we have the most recent Forest image
 docker pull ghcr.io/chainsafe/forest:"${FOREST_TAG}"
 
-# Ensure that we can access files with the defaul
+# Ensure that we can access files with the default Forest image user
+chmo
