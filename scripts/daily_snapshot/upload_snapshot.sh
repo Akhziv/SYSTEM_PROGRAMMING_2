@@ -15,4 +15,4 @@ NEWEST_SNAPSHOT=$2
 docker pull ghcr.io/chainsafe/forest:"${FOREST_TAG}"
 
 # Ensure that we can access files with the default Forest image user
-chmo
+chmod -R +rw "$BASE_FOLDER/s3/$CHA
