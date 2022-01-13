@@ -12,4 +12,6 @@ CHAIN_NAME=$1
 NEWEST_SNAPSHOT=$2
 
 # Make sure we have the most recent Forest image
-docker pull ghcr.io/chainsafe/forest:"${FO
+docker pull ghcr.io/chainsafe/forest:"${FOREST_TAG}"
+
+# Ensure
