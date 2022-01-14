@@ -19,4 +19,5 @@ chmod -R +rw "$BASE_FOLDER/s3/$CHAIN_NAME"
 
 # Sync and export is done in a single container to make sure everything is
 # properly cleaned up.
-COMMANDS=$(cat
+COMMANDS=$(cat << HEREDOC
+echo "Ch
