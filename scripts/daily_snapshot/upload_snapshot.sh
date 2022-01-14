@@ -21,4 +21,4 @@ chmod -R +rw "$BASE_FOLDER/s3/$CHAIN_NAME"
 # properly cleaned up.
 COMMANDS=$(cat << HEREDOC
 echo "Chain: $CHAIN_NAME"
-echo 
+echo "Snapshot: $NEWEST_SNAPS
