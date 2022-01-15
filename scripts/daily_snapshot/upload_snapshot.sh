@@ -22,4 +22,4 @@ chmod -R +rw "$BASE_FOLDER/s3/$CHAIN_NAME"
 COMMANDS=$(cat << HEREDOC
 echo "Chain: $CHAIN_NAME"
 echo "Snapshot: $NEWEST_SNAPSHOT"
-forest --encrypt-keystore false --ch
+forest --encrypt-keystore false --chain $CHAIN_NAME --import-snap
