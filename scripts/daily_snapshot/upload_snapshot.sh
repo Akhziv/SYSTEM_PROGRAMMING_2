@@ -23,4 +23,5 @@ COMMANDS=$(cat << HEREDOC
 echo "Chain: $CHAIN_NAME"
 echo "Snapshot: $NEWEST_SNAPSHOT"
 forest --encrypt-keystore false --chain $CHAIN_NAME --import-snapshot $NEWEST_SNAPSHOT --detach || { echo "failed starting forest daemon"; exit 1; }
-timeout $SYNC_TIMEOUT forest-cli sync wait || { echo "timed-out on forest-c
+timeout $SYNC_TIMEOUT forest-cli sync wait || { echo "timed-out on forest-cli sync"; exit 1; }
+cat fore
