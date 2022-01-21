@@ -26,4 +26,5 @@ forest --encrypt-keystore false --chain $CHAIN_NAME --import-snapshot $NEWEST_SN
 timeout $SYNC_TIMEOUT forest-cli sync wait || { echo "timed-out on forest-cli sync"; exit 1; }
 cat forest.err forest.out
 forest-cli snapshot export || { echo "failed to export the snapshot"; exit 1; }
-mv ./forest_snapshot* $BASE_FOLD
+mv ./forest_snapshot* $BASE_FOLDER/s3/$CHAIN_NAME/
+HEREDOC
