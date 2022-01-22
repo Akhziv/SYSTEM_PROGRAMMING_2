@@ -28,3 +28,7 @@ cat forest.err forest.out
 forest-cli snapshot export || { echo "failed to export the snapshot"; exit 1; }
 mv ./forest_snapshot* $BASE_FOLDER/s3/$CHAIN_NAME/
 HEREDOC
+)
+
+docker run \
+  --name
