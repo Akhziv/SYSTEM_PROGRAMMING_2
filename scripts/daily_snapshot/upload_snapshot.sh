@@ -31,4 +31,4 @@ HEREDOC
 )
 
 docker run \
-  --name
+  --name forest-snapshot-uploa
