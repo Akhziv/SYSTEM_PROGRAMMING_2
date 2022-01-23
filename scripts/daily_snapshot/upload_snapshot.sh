@@ -35,4 +35,4 @@ docker run \
   --rm \
   -v "$BASE_FOLDER":"$BASE_FOLDER":rshared \
   --entrypoint /bin/bash \
-  ghcr.
+  ghcr.io/chainsafe/forest:"$
