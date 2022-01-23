@@ -3,4 +3,5 @@
 require 'docker'
 
 # Tools to facilitate interacting with Docker
-module D
+module DockerUtils
+  # returns 
