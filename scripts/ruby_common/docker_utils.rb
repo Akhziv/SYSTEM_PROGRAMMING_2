@@ -1,1 +1,5 @@
-# frozen_string_lite
+# frozen_string_literal: true
+
+require 'docker'
+
+# T
