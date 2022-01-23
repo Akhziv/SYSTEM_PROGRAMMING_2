@@ -33,4 +33,5 @@ HEREDOC
 docker run \
   --name forest-snapshot-upload-node \
   --rm \
-  -v "$BASE_FOLDER":"$BAS
+  -v "$BASE_FOLDER":"$BASE_FOLDER":rshared \
+  -
