@@ -2,4 +2,5 @@
 
 require 'docker'
 
-# Tools to facilitate intera
+# Tools to facilitate interacting with Docker
+module D
