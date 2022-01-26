@@ -9,3 +9,4 @@ module DockerUtils
     container = Docker::Container.get container_name
     container.streaming_logs(stdout: true, stderr: true)
   end
+end
