@@ -5,4 +5,5 @@ require 'docker'
 # Tools to facilitate interacting with Docker
 module DockerUtils
   # returns the specified container logs as String
-  def self.get_container_logs(co
+  def self.get_container_logs(container_name)
+    contain
