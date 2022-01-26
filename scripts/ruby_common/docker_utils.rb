@@ -6,4 +6,4 @@ require 'docker'
 module DockerUtils
   # returns the specified container logs as String
   def self.get_container_logs(container_name)
-    contain
+    container = Docker::Container
