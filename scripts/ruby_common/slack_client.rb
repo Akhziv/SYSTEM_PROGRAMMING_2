@@ -2,4 +2,4 @@
 
 require 'slack-ruby-client'
 
-# Wrapper 
+# Wrapper Slack client class t
