@@ -1,3 +1,5 @@
 # frozen_string_literal: true
 
-require 'slack-ru
+require 'slack-ruby-client'
+
+# Wrapper 
