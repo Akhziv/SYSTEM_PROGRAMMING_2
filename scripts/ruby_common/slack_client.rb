@@ -8,4 +8,5 @@ class SlackClient
   @channel = nil
   @client = nil
 
-  d
+  def initialize(channel, token)
+    rais
