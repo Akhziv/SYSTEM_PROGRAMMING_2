@@ -9,4 +9,4 @@ class SlackClient
   @client = nil
 
   def initialize(channel, token)
-    rais
+    raise "Invalid channel
