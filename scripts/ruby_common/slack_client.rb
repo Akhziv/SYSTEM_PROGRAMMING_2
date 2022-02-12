@@ -16,4 +16,5 @@ class SlackClient
       config.token = token
     end
 
-    @cha
+    @channel = channel
+    @client =
