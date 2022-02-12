@@ -12,4 +12,5 @@ class SlackClient
     raise "Invalid channel name: #{channel}, must start with \#" unless channel.start_with? '#'
     raise 'Missing token' if token.nil?
 
-    Slac
+    Slack.configure do |config|
+     
