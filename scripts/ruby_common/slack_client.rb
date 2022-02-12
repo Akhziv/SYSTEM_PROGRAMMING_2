@@ -13,4 +13,7 @@ class SlackClient
     raise 'Missing token' if token.nil?
 
     Slack.configure do |config|
-     
+      config.token = token
+    end
+
+    @cha
