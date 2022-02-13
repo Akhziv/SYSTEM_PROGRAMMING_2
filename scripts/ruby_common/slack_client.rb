@@ -17,4 +17,5 @@ class SlackClient
     end
 
     @channel = channel
-    @client =
+    @client = Slack::Web::Client.new
+ 
