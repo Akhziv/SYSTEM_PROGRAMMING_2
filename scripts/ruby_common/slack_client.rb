@@ -20,4 +20,4 @@ class SlackClient
     @client = Slack::Web::Client.new
   end
 
-  # Posts a new me
+  # Posts a new message to configured c
