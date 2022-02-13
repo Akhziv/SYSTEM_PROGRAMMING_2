@@ -21,4 +21,5 @@ class SlackClient
   end
 
   # Posts a new message to configured channel.
-  def post_m
+  def post_message(text)
+    msg 
