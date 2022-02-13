@@ -18,4 +18,6 @@ class SlackClient
 
     @channel = channel
     @client = Slack::Web::Client.new
- 
+  end
+
+  # Posts a new me
