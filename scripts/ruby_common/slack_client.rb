@@ -22,4 +22,5 @@ class SlackClient
 
   # Posts a new message to configured channel.
   def post_message(text)
-    msg = @client.chat_postMessage(channel: @cha
+    msg = @client.chat_postMessage(channel: @channel, text: text)
+    
