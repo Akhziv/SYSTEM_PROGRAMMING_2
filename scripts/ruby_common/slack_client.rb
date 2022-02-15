@@ -23,4 +23,7 @@ class SlackClient
   # Posts a new message to configured channel.
   def post_message(text)
     msg = @client.chat_postMessage(channel: @channel, text: text)
-    @last_thread = 
+    @last_thread = msg[:ts]
+  end
+
+  # At
