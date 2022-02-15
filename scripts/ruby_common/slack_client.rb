@@ -26,4 +26,4 @@ class SlackClient
     @last_thread = msg[:ts]
   end
 
-  # At
+  # Attaches a comment/reply to the latest po
