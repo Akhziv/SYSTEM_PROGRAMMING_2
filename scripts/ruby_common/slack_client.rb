@@ -27,4 +27,4 @@ class SlackClient
   end
 
   # Attaches a comment/reply to the latest posted thread.
-  def 
+  def attach_comment(comment
