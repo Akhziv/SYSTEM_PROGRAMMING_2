@@ -28,4 +28,6 @@ class SlackClient
 
   # Attaches a comment/reply to the latest posted thread.
   def attach_comment(comment)
-    raise 'Need to create a thread before attaching a comment.' if @la
+    raise 'Need to create a thread before attaching a comment.' if @last_thread.nil?
+
+    @clie
