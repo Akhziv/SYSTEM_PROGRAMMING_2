@@ -33,4 +33,4 @@ class SlackClient
     @client.chat_postMessage(channel: @channel, thread_ts: @last_thread, text: comment)
   end
 
-  # Attaches fil
+  # Attaches files to the last posted 
