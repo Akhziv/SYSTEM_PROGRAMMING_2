@@ -30,4 +30,7 @@ class SlackClient
   def attach_comment(comment)
     raise 'Need to create a thread before attaching a comment.' if @last_thread.nil?
 
-    @client.chat_postMessage(channel: @channel, thread_ts: @last_thread, text: commen
+    @client.chat_postMessage(channel: @channel, thread_ts: @last_thread, text: comment)
+  end
+
+  # Attaches fil
