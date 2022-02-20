@@ -34,4 +34,5 @@ class SlackClient
   end
 
   # Attaches files to the last posted thread.
-  def 
+  def attach_files(*files)
+    
