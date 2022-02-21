@@ -36,4 +36,6 @@ class SlackClient
   # Attaches files to the last posted thread.
   def attach_files(*files)
     files.each do |file|
-      attach_file f
+      attach_file file
+    end
+  end
