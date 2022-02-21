@@ -39,3 +39,5 @@ class SlackClient
       attach_file file
     end
   end
+
+  # Attaches a file to the 
