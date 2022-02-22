@@ -40,4 +40,5 @@ class SlackClient
     end
   end
 
-  # Attaches a file to the 
+  # Attaches a file to the latest posted thread.
+ 
