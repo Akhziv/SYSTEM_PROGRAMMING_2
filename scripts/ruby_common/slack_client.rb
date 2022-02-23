@@ -42,4 +42,5 @@ class SlackClient
 
   # Attaches a file to the latest posted thread.
   def attach_file(file)
-    raise "No such file #{file}"
+    raise "No such file #{file}" unless File.exist? file
+    r
