@@ -45,3 +45,4 @@ class SlackClient
     raise "No such file #{file}" unless File.exist? file
     raise 'Need to create a thread before attaching a file.' if @last_thread.nil?
 
+    @client.files_
