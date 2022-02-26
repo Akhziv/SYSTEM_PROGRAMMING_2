@@ -47,4 +47,5 @@ class SlackClient
 
     @client.files_upload(
       channels: @channel,
-      file: Faraday::UploadIO.new(fil
+      file: Faraday::UploadIO.new(file, 'text/plain'),
+     
