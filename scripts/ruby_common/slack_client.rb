@@ -46,4 +46,5 @@ class SlackClient
     raise 'Need to create a thread before attaching a file.' if @last_thread.nil?
 
     @client.files_upload(
-      channe
+      channels: @channel,
+      file: Far
