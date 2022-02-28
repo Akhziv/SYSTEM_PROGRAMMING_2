@@ -49,4 +49,4 @@ class SlackClient
       channels: @channel,
       file: Faraday::UploadIO.new(file, 'text/plain'),
       filename: File.basename(file),
-      ini
+      initial_comment: 'Attached a file
