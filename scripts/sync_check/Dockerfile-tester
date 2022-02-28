@@ -1,3 +1,5 @@
 FROM fedora:36
 
-RUN dnf install -y docker ruby ruby-devel mak
+RUN dnf install -y docker ruby ruby-devel make gcc
+
+# Install requir
