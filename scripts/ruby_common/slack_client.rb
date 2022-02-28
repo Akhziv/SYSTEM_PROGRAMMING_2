@@ -51,4 +51,6 @@ class SlackClient
       filename: File.basename(file),
       initial_comment: 'Attached a file.',
       thread_ts: @last_thread
-   
+    )
+  end
+end
