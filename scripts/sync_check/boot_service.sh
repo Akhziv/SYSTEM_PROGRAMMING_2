@@ -1,3 +1,4 @@
 #!/bin/bash
 
-# The .env file contains environment va
+# The .env file contains environment variables that we want access to.
+set -
