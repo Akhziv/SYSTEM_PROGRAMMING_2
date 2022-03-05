@@ -1,3 +1,3 @@
 #!/bin/bash
 
-# The 
+# The .env file contains environment va
