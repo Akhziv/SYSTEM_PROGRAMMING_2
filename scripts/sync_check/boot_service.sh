@@ -9,4 +9,4 @@ set +o allexport
 
 error=0
 
-# Check if an environment variable is set.
+# Check if an environment variable is set. If it isn't, set error=1.
