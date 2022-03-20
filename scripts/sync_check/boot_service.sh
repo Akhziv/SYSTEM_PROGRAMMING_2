@@ -12,4 +12,5 @@ error=0
 # Check if an environment variable is set. If it isn't, set error=1.
 check_env () {
     A="                            ";
-    echo -n "${A:0:-${#1}} 
+    echo -n "${A:0:-${#1}} $1: "
+    if [[ -z "${!1}
