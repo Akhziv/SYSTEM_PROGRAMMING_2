@@ -21,4 +21,4 @@ check_env () {
     fi
 }
 
-# Check that the en
+# Check that the environment variables in the 
