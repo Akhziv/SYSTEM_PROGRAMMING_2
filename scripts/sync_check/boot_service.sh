@@ -17,4 +17,5 @@ check_env () {
         echo "❌"
         error=1
     else
- 
+        echo "✅"
+    
