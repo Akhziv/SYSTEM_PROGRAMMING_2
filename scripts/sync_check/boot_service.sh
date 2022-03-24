@@ -14,4 +14,7 @@ check_env () {
     A="                            ";
     echo -n "${A:0:-${#1}} $1: "
     if [[ -z "${!1}" ]]; then
-        echo
+        echo "❌"
+        error=1
+    else
+ 
