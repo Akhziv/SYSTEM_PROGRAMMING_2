@@ -18,4 +18,7 @@ check_env () {
         error=1
     else
         echo "✅"
-    
+    fi
+}
+
+# Check that the en
