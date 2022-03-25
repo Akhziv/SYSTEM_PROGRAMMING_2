@@ -21,4 +21,4 @@ check_env () {
     fi
 }
 
-# Check that the environment variables in the 
+# Check that the environment variables in the .env file have been defined.
