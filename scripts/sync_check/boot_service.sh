@@ -22,4 +22,5 @@ check_env () {
 }
 
 # Check that the environment variables in the .env file have been defined.
-check_env "FOREST_SLACK_API_T
+check_env "FOREST_SLACK_API_TOKEN"
+check_env "FOREST_SL
