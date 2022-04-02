@@ -26,4 +26,5 @@ check_env "FOREST_SLACK_API_TOKEN"
 check_env "FOREST_SLACK_NOTIF_CHANNEL"
 check_env "FOREST_TAG"
 check_env "FOREST_TARGET_SCRIPTS"
-check
+check_env "FOREST_TARGET_DATA"
+c
