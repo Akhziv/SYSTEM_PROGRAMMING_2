@@ -27,4 +27,4 @@ check_env "FOREST_SLACK_NOTIF_CHANNEL"
 check_env "FOREST_TAG"
 check_env "FOREST_TARGET_SCRIPTS"
 check_env "FOREST_TARGET_DATA"
-c
+check_env "FOREST_TARGET_RUBY_COM
