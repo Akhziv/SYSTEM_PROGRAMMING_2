@@ -35,4 +35,4 @@ if [ "$error" -ne "0" ]; then
 fi
 
 # Kill all relevant containers
-doc
+docker container rm --force fo
