@@ -30,4 +30,4 @@ check_env "FOREST_TARGET_DATA"
 check_env "FOREST_TARGET_RUBY_COMMON"
 
 if [ "$error" -ne "0" ]; then
-    echo "Please set
+    echo "Please set the required environment
