@@ -34,4 +34,5 @@ if [ "$error" -ne "0" ]; then
     exit 1
 fi
 
-# Kill al
+# Kill all relevant containers
+doc
