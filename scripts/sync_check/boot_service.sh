@@ -35,4 +35,5 @@ if [ "$error" -ne "0" ]; then
 fi
 
 # Kill all relevant containers
-docker container rm --force forest-sync-check 2> /dev/
+docker container rm --force forest-sync-check 2> /dev/null || true
+docker container 
