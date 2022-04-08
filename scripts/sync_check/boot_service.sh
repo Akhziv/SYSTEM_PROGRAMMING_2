@@ -38,4 +38,4 @@ fi
 docker container rm --force forest-sync-check 2> /dev/null || true
 docker container rm --force watchtower 2> /dev/null || true
 docker container rm --force forest-calibnet 2> /dev/null || true
-docker container rm --force forest
+docker container rm --force forest-mainnet 2> /dev/null || tr
