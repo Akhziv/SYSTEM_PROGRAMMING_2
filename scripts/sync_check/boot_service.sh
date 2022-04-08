@@ -37,4 +37,4 @@ fi
 # Kill all relevant containers
 docker container rm --force forest-sync-check 2> /dev/null || true
 docker container rm --force watchtower 2> /dev/null || true
-dock
+docker container rm --for
