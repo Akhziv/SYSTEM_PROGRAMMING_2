@@ -42,4 +42,5 @@ docker container rm --force forest-mainnet 2> /dev/null || true
 docker container rm --force forest-tester 2> /dev/null || true
 
 docker run \
-    --na
+    --name forest-sync-check \
+    --n
