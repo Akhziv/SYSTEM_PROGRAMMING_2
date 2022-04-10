@@ -44,4 +44,6 @@ docker container rm --force forest-tester 2> /dev/null || true
 docker run \
     --name forest-sync-check \
     --network host \
-    --env-fil
+    --env-file .env \
+    --detach \
+  
