@@ -46,4 +46,4 @@ docker run \
     --network host \
     --env-file .env \
     --detach \
-  
+    --restart unless-stopped 
