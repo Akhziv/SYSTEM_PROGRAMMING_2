@@ -46,4 +46,5 @@ docker run \
     --network host \
     --env-file .env \
     --detach \
-    --restart unless-stopped 
+    --restart unless-stopped \
+    --label com.centurylinklabs.w
