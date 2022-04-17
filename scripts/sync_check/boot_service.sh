@@ -47,4 +47,5 @@ docker run \
     --env-file .env \
     --detach \
     --restart unless-stopped \
-    --label com.centurylinklabs.w
+    --label com.centurylinklabs.watchtower.enable=true \
+    --
