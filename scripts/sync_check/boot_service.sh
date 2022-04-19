@@ -48,4 +48,4 @@ docker run \
     --detach \
     --restart unless-stopped \
     --label com.centurylinklabs.watchtower.enable=true \
-    --
+    --volume /var/run/docker.
