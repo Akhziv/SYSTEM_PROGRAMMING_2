@@ -49,4 +49,5 @@ docker run \
     --restart unless-stopped \
     --label com.centurylinklabs.watchtower.enable=true \
     --volume /var/run/docker.sock:/var/run/docker.sock \
-    --volume forest-data
+    --volume forest-data:"$FOREST_TARGET_DATA" \
+   
