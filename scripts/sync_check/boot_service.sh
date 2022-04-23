@@ -50,4 +50,4 @@ docker run \
     --label com.centurylinklabs.watchtower.enable=true \
     --volume /var/run/docker.sock:/var/run/docker.sock \
     --volume forest-data:"$FOREST_TARGET_DATA" \
-    --volume sync-check:"$FOR
+    --volume sync-check:"$FOREST_TARGET_SCRI
