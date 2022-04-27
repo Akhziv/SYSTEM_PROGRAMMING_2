@@ -38,3 +38,23 @@ services:
       - type: volume
         source: sync-check
         target: ${FOREST_TARGET_SCRIPTS}
+    command:
+      - '--chain'
+      - 'calibnet'
+      - '--config'
+      - ${FOREST_TARGET_SCRIPTS}/sync_check.toml
+    restart: unless-stopped
+    labels:
+      com.centurylinklabs.watchtower.enable: true
+  # Probe container to validate Forest syncing. Needs to be on the same network.
+  forest_tester:
+    build:
+      context: .
+      dockerfile: Dockerfile-tester
+    container_name: forest-tester
+    networks:
+      - mainnet
+      - calibnet
+    volumes:
+      - type: volume
+        source: forest-data
