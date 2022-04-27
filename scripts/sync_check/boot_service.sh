@@ -52,4 +52,4 @@ docker run \
     --volume forest-data:"$FOREST_TARGET_DATA" \
     --volume sync-check:"$FOREST_TARGET_SCRIPTS" \
     --volume ruby-common:"$FOREST_TARGET_RUBY_COMMON" \
-    ghcr.io/c
+    ghcr.io/chainsafe/sync-check:latest

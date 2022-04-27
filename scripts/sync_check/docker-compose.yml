@@ -1,0 +1,7 @@
+
+# Docker compose file to run continuous Forest sync on both mainnet and calibnet.
+
+version: "3.7"
+
+services:
+  forest_mainnet:
