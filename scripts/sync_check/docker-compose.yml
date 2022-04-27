@@ -5,3 +5,36 @@ version: "3.7"
 
 services:
   forest_mainnet:
+    image: ghcr.io/chainsafe/forest:${FOREST_TAG}
+    hostname: forest-mainnet
+    container_name: forest-mainnet
+    networks:
+      - mainnet
+    volumes:
+      - type: volume
+        source: forest-data
+        target: ${FOREST_TARGET_DATA}
+      - type: volume
+        source: sync-check
+        target: ${FOREST_TARGET_SCRIPTS}
+    command:
+      - '--chain'
+      - 'mainnet'
+      - '--config'
+      - ${FOREST_TARGET_SCRIPTS}/sync_check.toml
+    restart: unless-stopped
+    labels:
+      com.centurylinklabs.watchtower.enable: true
+  forest_calibnet:
+    image: ghcr.io/chainsafe/forest:${FOREST_TAG}
+    hostname: forest-calibnet
+    container_name: forest-calibnet
+    networks:
+      - calibnet
+    volumes:
+      - type: volume
+        source: forest-data
+        target: ${FOREST_TARGET_DATA}
+      - type: volume
+        source: sync-check
+        target: ${FOREST_TARGET_SCRIPTS}
