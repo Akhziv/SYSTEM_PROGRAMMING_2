@@ -85,3 +85,19 @@ services:
       - forest_calibnet
     labels:
       com.centurylinklabs.watchtower.enable: true
+      com.centurylinklabs.watchtower.depends-on: "forest-mainnet,forest-calibnet"
+
+volumes:
+  forest-data:
+    external: true
+    name: forest-data
+  sync-check:
+    external: true
+    name: sync-check
+  ruby-common:
+    external: true
+    name: ruby-common
+
+networks:
+  mainnet:
+  calibnet:
