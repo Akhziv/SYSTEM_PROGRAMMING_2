@@ -1,2 +1,3 @@
 FOREST_TAG=latest
-FOREST_TARGET_DATA=
+FOREST_TARGET_DATA=/volumes/forest_data
+FO
