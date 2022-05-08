@@ -61,3 +61,23 @@ do
 done
 
 if [ "$timeout" -le 0 ]; then
+  echo "❌ Timed out on sync wait"
+  exit "$RET_SYNC_TIMEOUT"
+fi
+echo "✅ Forest started syncing"
+
+# Let Forest run for the health check period
+echo "⏳ Waiting for the health probe to finish..."
+sleep "$HEALTH_CHECK_DURATION_SECONDS"
+
+# Grab last synced tipset epoch
+update_metrics
+tipset_end="$(get_metric_value "last_validated_tipset_epoch")"
+
+if [ -z "$tipset_end" ]; then
+  echo "❌ Did not manage to get sync status"
+  exit "$RET_SYNC_ERROR"
+fi
+
+# Assert tipset epoch moved forward
+echo "👉 Tipset start: $tipset_start, end: $tipset_end"
