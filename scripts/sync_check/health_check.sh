@@ -30,3 +30,34 @@ HEALTH_CHECK_SYNC_TIMEOUT_SECONDS=${HEALTH_CHECK_SYNC_TIMEOUT_SECONDS:-"7200"}
 function get_metric_value() {
   grep -E "^$1" <<< "$metrics" | cut -d' ' -f2
 }
+
+# Updates metrics data with the latest metrics from Prometheus
+# Arg: none
+function update_metrics() {
+  metrics=$(curl --silent "$FOREST_METRICS_ENDPOINT")
+}
+
+# Checks if an error occurred and is visible in the metrics.
+# Arg: name of the error metric
+function assert_error() {
+  errors="$(get_metric_value "$1")"
+  if [ -n "$errors" ]; then
+    echo "❌ $1: $errors"
+    ret=$RET_SYNC_ERROR
+  fi
+}
+
+##### Actual script
+
+# Wait for Forest to start syncing
+timeout="$HEALTH_CHECK_SYNC_TIMEOUT_SECONDS"
+echo "⏳ Waiting for Forest to start syncing (up to $timeout seconds)..."
+until [ -n "$tipset_start" ] || [ "$timeout" -le 0 ]
+do
+  update_metrics
+  tipset_start="$(get_metric_value "last_validated_tipset_epoch")"
+  sleep 1
+  timeout=$((timeout-1))
+done
+
+if [ "$timeout" -le 0 ]; then
