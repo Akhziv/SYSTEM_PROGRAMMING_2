@@ -81,3 +81,28 @@ fi
 
 # Assert tipset epoch moved forward
 echo "👉 Tipset start: $tipset_start, end: $tipset_end"
+if [ "$tipset_end" -gt "$tipset_start" ]; then
+  echo "✅ Tipset epoch moving forward"
+  ret="$RET_OK"
+else
+  echo "❌ Tipset epoch didn't move forward."
+  ret="$RET_SYNC_TIPSET_STALE"
+fi
+
+# Assert there are no sync errors
+assert_error "network_head_evaluation_errors"
+assert_error "bootstrap_errors"
+assert_error "follow_network_interruptions"
+assert_error "follow_network_errors"
+
+if [ "$ret" -ne "$RET_SYNC_ERROR" ]; then
+  echo "✅ No sync errors"
+fi
+
+if [ "$ret" -eq "$RET_OK" ]; then
+  echo "✅ Health check passed"
+else
+  echo "❌ Health check failed"
+fi
+
+exit "$ret"
