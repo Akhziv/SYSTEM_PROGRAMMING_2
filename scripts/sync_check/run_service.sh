@@ -2,4 +2,4 @@
 
 set -e
 
-## Ens
+## Ensure watchtower is running
