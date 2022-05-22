@@ -9,4 +9,5 @@ docker run --rm \
     --detach \
     -v /var/run/docker.sock:/var/run/docker.sock \
     --name watchtower \
-    containrr
+    containrrr/watchtower \
+    --label
