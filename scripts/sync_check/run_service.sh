@@ -8,4 +8,5 @@ docker wait watchtower 2> /dev/null || true
 docker run --rm \
     --detach \
     -v /var/run/docker.sock:/var/run/docker.sock \
-    --name
+    --name watchtower \
+    containrr
