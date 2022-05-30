@@ -10,4 +10,6 @@ docker run --rm \
     -v /var/run/docker.sock:/var/run/docker.sock \
     --name watchtower \
     containrrr/watchtower \
-    --label-enable --include-stopped --revive-stopped --stop-timeout 
+    --label-enable --include-stopped --revive-stopped --stop-timeout 120s --interval 600
+
+# Clean
