@@ -12,4 +12,5 @@ docker run --rm \
     containrrr/watchtower \
     --label-enable --include-stopped --revive-stopped --stop-timeout 120s --interval 600
 
-# Clean
+# Clean volumes
+rm -rf "${FORES
