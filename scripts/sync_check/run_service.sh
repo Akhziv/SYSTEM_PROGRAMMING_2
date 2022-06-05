@@ -14,4 +14,4 @@ docker run --rm \
 
 # Clean volumes
 rm -rf "${FOREST_TARGET_DATA:?}"/*
-rm 
+rm -rf "${FOREST_TARGET_SCRIPTS:?
