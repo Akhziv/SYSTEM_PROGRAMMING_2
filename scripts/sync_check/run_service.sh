@@ -13,4 +13,5 @@ docker run --rm \
     --label-enable --include-stopped --revive-stopped --stop-timeout 120s --interval 600
 
 # Clean volumes
-rm -rf "${FORES
+rm -rf "${FOREST_TARGET_DATA:?}"/*
+rm 
