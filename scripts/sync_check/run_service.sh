@@ -15,4 +15,6 @@ docker run --rm \
 # Clean volumes
 rm -rf "${FOREST_TARGET_DATA:?}"/*
 rm -rf "${FOREST_TARGET_SCRIPTS:?}"/*
-rm -rf "${FOREST_TARGE
+rm -rf "${FOREST_TARGET_RUBY_COMMON:?}"/*
+
+# We n
