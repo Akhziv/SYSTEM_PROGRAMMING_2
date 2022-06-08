@@ -17,4 +17,4 @@ rm -rf "${FOREST_TARGET_DATA:?}"/*
 rm -rf "${FOREST_TARGET_SCRIPTS:?}"/*
 rm -rf "${FOREST_TARGET_RUBY_COMMON:?}"/*
 
-# We n
+# We need it to access the DA
