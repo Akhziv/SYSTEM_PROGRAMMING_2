@@ -21,4 +21,4 @@ rm -rf "${FOREST_TARGET_RUBY_COMMON:?}"/*
 chmod 0777 "${FOREST_TARGET_DATA:?}"
 
 # Copy all relevant scripts
-cp -R /chainsafe/* "$FOR
+cp -R /chainsafe/* "$FOREST_TARGET_SCRIPTS
