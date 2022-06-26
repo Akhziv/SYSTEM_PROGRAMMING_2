@@ -24,4 +24,5 @@ chmod 0777 "${FOREST_TARGET_DATA:?}"
 cp -R /chainsafe/* "$FOREST_TARGET_SCRIPTS"
 cp -R /chainsafe/ruby_common/* "$FOREST_TARGET_RUBY_COMMON"
 
-# Export and upload s
+# Export and upload snapshot
+ruby sync_ch
