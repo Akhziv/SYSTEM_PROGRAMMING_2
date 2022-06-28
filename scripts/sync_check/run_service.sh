@@ -25,4 +25,4 @@ cp -R /chainsafe/* "$FOREST_TARGET_SCRIPTS"
 cp -R /chainsafe/ruby_common/* "$FOREST_TARGET_RUBY_COMMON"
 
 # Export and upload snapshot
-ruby sync_ch
+ruby sync_check_process.rb
