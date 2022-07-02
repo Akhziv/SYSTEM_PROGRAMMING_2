@@ -43,3 +43,12 @@ container_logs = DockerUtils.get_container_logs hostname
 File.write(LOG_FOREST, container_logs)
 
 client = SlackClient.new CHANNEL, SLACK_TOKEN
+
+if health_check_passed
+  client.post_message "✅ Sync check for #{hostname} passed. 🌲🌳🌲🌳🌲"
+else
+  client.post_message "⛔ Sync check for #{hostname} fiascoed. 🔥🌲🔥 "
+end
+client.attach_files(LOG_HEALTH, LOG_SYNC, LOG_FOREST)
+
+logger.info 'Sync check finished'
