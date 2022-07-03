@@ -1,2 +1,3 @@
 [client]
-data_dir         = "/volumes/fore
+data_dir         = "/volumes/forest_data"
+encrypt_keystore = fa
