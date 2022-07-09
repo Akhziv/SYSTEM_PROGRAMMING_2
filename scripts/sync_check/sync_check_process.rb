@@ -1,3 +1,3 @@
 # frozen_string_literal: true
 
-requ
+require_relative 'ruby_common/
