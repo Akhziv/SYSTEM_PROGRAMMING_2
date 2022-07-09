@@ -3,4 +3,6 @@
 require_relative 'ruby_common/slack_client'
 require_relative 'ruby_common/utils'
 
-require 'Engl
+require 'English'
+require 'fileutils'
+re
