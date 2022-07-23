@@ -9,4 +9,4 @@ require 'sys/filesystem'
 require 'logger'
 require 'open3'
 
-SLACK_TOKEN = ge
+SLACK_TOKEN = get_and_assert_env_variable 
