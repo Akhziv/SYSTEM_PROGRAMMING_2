@@ -7,4 +7,6 @@ require 'English'
 require 'fileutils'
 require 'sys/filesystem'
 require 'logger'
-requir
+require 'open3'
+
+SLACK_TOKEN = ge
