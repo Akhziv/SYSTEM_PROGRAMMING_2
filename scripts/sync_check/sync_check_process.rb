@@ -12,4 +12,4 @@ require 'open3'
 SLACK_TOKEN = get_and_assert_env_variable 'FOREST_SLACK_API_TOKEN'
 CHANNEL = get_and_assert_env_variable 'FOREST_SLACK_NOTIF_CHANNEL'
 FOREST_DATA = get_and_assert_env_variable 'FOREST_TARGET_DATA'
-FOREST_SCRIPTS
+FOREST_SCRIPTS = get_and_assert_env_var
