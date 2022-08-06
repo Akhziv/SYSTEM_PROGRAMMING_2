@@ -17,4 +17,5 @@ FOREST_TAG = get_and_assert_env_variable 'FOREST_TAG'
 
 # Sync check class encompassing all required methods and fields
 class SyncCheck
-  def initiali
+  def initialize
+    @logger = Log
