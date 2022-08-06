@@ -18,4 +18,5 @@ FOREST_TAG = get_and_assert_env_variable 'FOREST_TAG'
 # Sync check class encompassing all required methods and fields
 class SyncCheck
   def initialize
-    @logger = Log
+    @logger = Logger.new($stdout)
+    @c
