@@ -19,4 +19,7 @@ FOREST_TAG = get_and_assert_env_variable 'FOREST_TAG'
 class SyncCheck
   def initialize
     @logger = Logger.new($stdout)
-    @client = SlackClient.new CHANNEL, SLACK_TOKE
+    @client = SlackClient.new CHANNEL, SLACK_TOKEN
+  end
+
+  # Runs a comman
