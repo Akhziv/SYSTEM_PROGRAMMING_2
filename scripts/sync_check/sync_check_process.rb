@@ -22,4 +22,4 @@ class SyncCheck
     @client = SlackClient.new CHANNEL, SLACK_TOKEN
   end
 
-  # Runs a comman
+  # Runs a command with an arbitrary 
