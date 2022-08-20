@@ -22,4 +22,5 @@ class SyncCheck
     @client = SlackClient.new CHANNEL, SLACK_TOKEN
   end
 
-  # Runs a command with an arbitrary binary available in the ch
+  # Runs a command with an arbitrary binary available in the chainsafe/forest image
+  def 
