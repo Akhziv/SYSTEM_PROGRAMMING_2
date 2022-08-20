@@ -23,4 +23,4 @@ class SyncCheck
   end
 
   # Runs a command with an arbitrary binary available in the chainsafe/forest image
-  def 
+  def run_forest_container(b
