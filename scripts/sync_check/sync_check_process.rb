@@ -24,4 +24,4 @@ class SyncCheck
 
   # Runs a command with an arbitrary binary available in the chainsafe/forest image
   def run_forest_container(binary, command)
-    @logger.debug 
+    @logger.debug "Running `#{binary}
