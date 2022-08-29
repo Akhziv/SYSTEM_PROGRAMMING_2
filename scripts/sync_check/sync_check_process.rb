@@ -25,4 +25,5 @@ class SyncCheck
   # Runs a command with an arbitrary binary available in the chainsafe/forest image
   def run_forest_container(binary, command)
     @logger.debug "Running `#{binary}` command with #{command}"
-    stdout, stderr, status = Open3.capture3("docker run --entryp
+    stdout, stderr, status = Open3.capture3("docker run --entrypoint #{binary} \
+         
