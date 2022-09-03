@@ -28,4 +28,5 @@ class SyncCheck
     stdout, stderr, status = Open3.capture3("docker run --entrypoint #{binary} \
                 --init \
                 --volume forest-data:#{FOREST_DATA} \
-                --volume sync-c
+                --volume sync-check:#{FOREST_SCRIPTS} \
+   
