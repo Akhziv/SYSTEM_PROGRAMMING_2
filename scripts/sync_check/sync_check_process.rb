@@ -29,4 +29,5 @@ class SyncCheck
                 --init \
                 --volume forest-data:#{FOREST_DATA} \
                 --volume sync-check:#{FOREST_SCRIPTS} \
-   
+                --rm \
+          
