@@ -27,4 +27,5 @@ class SyncCheck
     @logger.debug "Running `#{binary}` command with #{command}"
     stdout, stderr, status = Open3.capture3("docker run --entrypoint #{binary} \
                 --init \
-                --volume forest-data:#{F
+                --volume forest-data:#{FOREST_DATA} \
+            
