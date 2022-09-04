@@ -30,4 +30,4 @@ class SyncCheck
                 --volume forest-data:#{FOREST_DATA} \
                 --volume sync-check:#{FOREST_SCRIPTS} \
                 --rm \
-          
+                ghcr.io/chains
