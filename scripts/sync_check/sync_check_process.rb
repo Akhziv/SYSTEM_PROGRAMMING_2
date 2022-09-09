@@ -31,4 +31,5 @@ class SyncCheck
                 --volume sync-check:#{FOREST_SCRIPTS} \
                 --rm \
                 ghcr.io/chainsafe/forest:#{FOREST_TAG} \
-                --config #{FOREST_SCRIPTS}/sync_check.
+                --config #{FOREST_SCRIPTS}/sync_check.toml \
+                
