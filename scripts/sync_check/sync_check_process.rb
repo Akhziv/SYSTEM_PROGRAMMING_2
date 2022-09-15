@@ -33,4 +33,4 @@ class SyncCheck
                 ghcr.io/chainsafe/forest:#{FOREST_TAG} \
                 --config #{FOREST_SCRIPTS}/sync_check.toml \
                 #{command}")
-    raise "Failed `#{binary} #{command}`.\n```\nSTDOUT:\n#{stdout}\nS
+    raise "Failed `#{binary} #{command}`.\n```\nSTDOUT:\n#{stdout}\nSTDERR:\n#{stderr}```" unless status
