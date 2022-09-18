@@ -36,4 +36,4 @@ class SyncCheck
     raise "Failed `#{binary} #{command}`.\n```\nSTDOUT:\n#{stdout}\nSTDERR:\n#{stderr}```" unless status.success?
   end
 
-  # Ru
+  # Runs a command for forest
