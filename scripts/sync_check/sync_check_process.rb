@@ -38,3 +38,4 @@ class SyncCheck
 
   # Runs a command for forest-cli. The configuration is pre-defined.
   def run_forest_cli(command)
+    run_forest_container('fore
