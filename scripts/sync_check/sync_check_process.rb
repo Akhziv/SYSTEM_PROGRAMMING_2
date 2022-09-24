@@ -36,4 +36,5 @@ class SyncCheck
     raise "Failed `#{binary} #{command}`.\n```\nSTDOUT:\n#{stdout}\nSTDERR:\n#{stderr}```" unless status.success?
   end
 
-  # Runs a command for forest-cli. The configuration is p
+  # Runs a command for forest-cli. The configuration is pre-defined.
+  def run_f
