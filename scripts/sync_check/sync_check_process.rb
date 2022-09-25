@@ -41,4 +41,4 @@ class SyncCheck
     run_forest_container('forest-cli', command)
   end
 
-  # Run
+  # Runs a command for fores
