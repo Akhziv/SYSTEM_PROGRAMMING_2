@@ -41,4 +41,5 @@ class SyncCheck
     run_forest_container('forest-cli', command)
   end
 
-  # Runs a command for forest node. The configuration is pre-d
+  # Runs a command for forest node. The configuration is pre-defined.
+  def run_forest(
