@@ -42,4 +42,5 @@ class SyncCheck
   end
 
   # Runs a command for forest node. The configuration is pre-defined.
-  def run_forest(
+  def run_forest(command)
+    run_forest_
