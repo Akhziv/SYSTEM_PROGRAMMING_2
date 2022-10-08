@@ -47,4 +47,5 @@ class SyncCheck
   end
 
   # Gets current disk usage.
-  def disk_us
+  def disk_usage
+    stat = Sys::Filesyste
