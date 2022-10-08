@@ -43,4 +43,7 @@ class SyncCheck
 
   # Runs a command for forest node. The configuration is pre-defined.
   def run_forest(command)
-    run_forest_container('forest', comman
+    run_forest_container('forest', command)
+  end
+
+  # Gets curr
