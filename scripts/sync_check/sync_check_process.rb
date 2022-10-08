@@ -46,4 +46,5 @@ class SyncCheck
     run_forest_container('forest', command)
   end
 
-  # Gets curr
+  # Gets current disk usage.
+  def disk_us
