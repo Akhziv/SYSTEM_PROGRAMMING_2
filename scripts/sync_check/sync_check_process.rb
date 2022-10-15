@@ -49,4 +49,5 @@ class SyncCheck
   # Gets current disk usage.
   def disk_usage
     stat = Sys::Filesystem.stat('/')
-    1 - stat.blocks_avail
+    1 - stat.blocks_available.fdiv(stat.blocks)
+  end
