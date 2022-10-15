@@ -51,3 +51,5 @@ class SyncCheck
     stat = Sys::Filesystem.stat('/')
     1 - stat.blocks_available.fdiv(stat.blocks)
   end
+
+  # Downloads snapshots 
