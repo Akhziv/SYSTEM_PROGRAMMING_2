@@ -52,4 +52,5 @@ class SyncCheck
     1 - stat.blocks_available.fdiv(stat.blocks)
   end
 
-  # Downloads snapshots 
+  # Downloads snapshots from trusted sources.
+  def downlo
