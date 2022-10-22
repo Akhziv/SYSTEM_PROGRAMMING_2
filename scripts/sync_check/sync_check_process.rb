@@ -55,4 +55,4 @@ class SyncCheck
   # Downloads snapshots from trusted sources.
   def download_snapshots
     @logger.info 'Downloading snapshots'
-    ru
+    run_forest_cli '--chain ca
