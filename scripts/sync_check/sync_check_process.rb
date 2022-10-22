@@ -54,4 +54,5 @@ class SyncCheck
 
   # Downloads snapshots from trusted sources.
   def download_snapshots
-    @logger.info '
+    @logger.info 'Downloading snapshots'
+    ru
