@@ -56,4 +56,7 @@ class SyncCheck
   def download_snapshots
     @logger.info 'Downloading snapshots'
     run_forest_cli '--chain calibnet snapshot fetch'
-    run_forest_cli '--chain 
+    run_forest_cli '--chain mainnet snapshot fetch'
+  end
+
+  # Ret
