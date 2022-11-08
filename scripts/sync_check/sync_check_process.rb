@@ -59,4 +59,4 @@ class SyncCheck
     run_forest_cli '--chain mainnet snapshot fetch'
   end
 
-  # Retrieves path to the
+  # Retrieves path to the relevant snapshot based 
