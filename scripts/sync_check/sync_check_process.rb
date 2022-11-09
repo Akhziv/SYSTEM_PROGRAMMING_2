@@ -60,4 +60,4 @@ class SyncCheck
   end
 
   # Retrieves path to the relevant snapshot based on the network chosen.
-  def
+  def snapshot_path(network)
