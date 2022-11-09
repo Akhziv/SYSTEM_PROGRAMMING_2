@@ -61,3 +61,4 @@ class SyncCheck
 
   # Retrieves path to the relevant snapshot based on the network chosen.
   def snapshot_path(network)
+    Dir.glob("#{FOREST_DATA
