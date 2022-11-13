@@ -62,3 +62,6 @@ class SyncCheck
   # Retrieves path to the relevant snapshot based on the network chosen.
   def snapshot_path(network)
     Dir.glob("#{FOREST_DATA}/snapshots/#{network}/*.car")[0] or raise "Can't find snapshot in #{dir}"
+  end
+
+  # Imports
