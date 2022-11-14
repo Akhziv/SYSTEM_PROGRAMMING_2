@@ -64,4 +64,5 @@ class SyncCheck
     Dir.glob("#{FOREST_DATA}/snapshots/#{network}/*.car")[0] or raise "Can't find snapshot in #{dir}"
   end
 
-  # Imports
+  # Imports the snapshots
+  
