@@ -66,4 +66,5 @@ class SyncCheck
 
   # Imports the snapshots
   def import_snapshots
-    @log
+    @logger.info 'Importing snapshots'
+   
