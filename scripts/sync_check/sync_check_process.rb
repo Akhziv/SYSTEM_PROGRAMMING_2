@@ -65,4 +65,5 @@ class SyncCheck
   end
 
   # Imports the snapshots
-  
+  def import_snapshots
+    @log
