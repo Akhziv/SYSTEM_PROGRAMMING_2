@@ -67,4 +67,4 @@ class SyncCheck
   # Imports the snapshots
   def import_snapshots
     @logger.info 'Importing snapshots'
-   
+    run_forest "--chain 
