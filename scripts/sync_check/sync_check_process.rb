@@ -68,4 +68,7 @@ class SyncCheck
   def import_snapshots
     @logger.info 'Importing snapshots'
     run_forest "--chain calibnet --halt-after-import --import-snapshot #{snapshot_path('calibnet')}"
-    run_forest "--chain mainnet --halt-after-import --import-snapshot #{snapshot_path('mainnet
+    run_forest "--chain mainnet --halt-after-import --import-snapshot #{snapshot_path('mainnet')}"
+  end
+
+  # Deletes a
