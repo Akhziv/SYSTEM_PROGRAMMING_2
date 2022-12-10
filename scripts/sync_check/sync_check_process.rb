@@ -72,4 +72,5 @@ class SyncCheck
   end
 
   # Deletes all snapshots to free up memory.
-  def delete_snap
+  def delete_snapshots
+    @logger.info 'Deleting
