@@ -71,4 +71,5 @@ class SyncCheck
     run_forest "--chain mainnet --halt-after-import --import-snapshot #{snapshot_path('mainnet')}"
   end
 
-  # Deletes all snapshots to free up me
+  # Deletes all snapshots to free up memory.
+  def delete_snap
