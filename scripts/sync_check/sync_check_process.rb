@@ -74,4 +74,5 @@ class SyncCheck
   # Deletes all snapshots to free up memory.
   def delete_snapshots
     @logger.info 'Deleting snapshots'
-    run_forest_cli '--chain calibnet s
+    run_forest_cli '--chain calibnet snapshot clean --force'
+    run_for
