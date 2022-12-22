@@ -77,3 +77,5 @@ class SyncCheck
     run_forest_cli '--chain calibnet snapshot clean --force'
     run_forest_cli '--chain mainnet snapshot clean --force'
   end
+
+  # Starts docker-c
