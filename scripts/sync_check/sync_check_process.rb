@@ -75,4 +75,4 @@ class SyncCheck
   def delete_snapshots
     @logger.info 'Deleting snapshots'
     run_forest_cli '--chain calibnet snapshot clean --force'
-    run_for
+    run_forest_cli '--chain mainnet snap
