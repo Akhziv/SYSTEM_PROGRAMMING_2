@@ -79,4 +79,5 @@ class SyncCheck
   end
 
   # Starts docker-compose services. It first downloads and imports the snapshots.
-  def s
+  def start_services
+   
