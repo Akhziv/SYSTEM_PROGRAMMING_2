@@ -78,4 +78,5 @@ class SyncCheck
     run_forest_cli '--chain mainnet snapshot clean --force'
   end
 
-  # Starts docker-compose services. It first downloads and import
+  # Starts docker-compose services. It first downloads and imports the snapshots.
+  def s
