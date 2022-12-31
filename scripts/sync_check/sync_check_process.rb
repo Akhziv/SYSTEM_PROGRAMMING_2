@@ -81,4 +81,5 @@ class SyncCheck
   # Starts docker-compose services. It first downloads and imports the snapshots.
   def start_services
     @logger.info 'Starting services'
-    downlo
+    download_snapshots
+    import_
