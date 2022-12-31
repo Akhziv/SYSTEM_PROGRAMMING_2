@@ -84,3 +84,5 @@ class SyncCheck
     download_snapshots
     import_snapshots
     delete_snapshots
+
+    `docker-compose up --build 
