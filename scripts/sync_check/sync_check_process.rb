@@ -82,4 +82,5 @@ class SyncCheck
   def start_services
     @logger.info 'Starting services'
     download_snapshots
-    import_
+    import_snapshots
+    delete_snapshots
