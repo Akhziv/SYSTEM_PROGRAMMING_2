@@ -85,4 +85,5 @@ class SyncCheck
     import_snapshots
     delete_snapshots
 
-    `docker-compose up --build --force-recreate --det
+    `docker-compose up --build --force-recreate --detach`
+    raise 'Failed to 
