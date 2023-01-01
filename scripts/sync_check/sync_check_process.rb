@@ -86,4 +86,5 @@ class SyncCheck
     delete_snapshots
 
     `docker-compose up --build --force-recreate --detach`
-    raise 'Failed to start services' unless $C
+    raise 'Failed to start services' unless $CHILD_STATUS.success?
+ 
