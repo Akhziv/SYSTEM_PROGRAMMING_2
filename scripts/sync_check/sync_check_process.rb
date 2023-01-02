@@ -87,4 +87,6 @@ class SyncCheck
 
     `docker-compose up --build --force-recreate --detach`
     raise 'Failed to start services' unless $CHILD_STATUS.success?
- 
+  end
+
+  # Stops docker-co
