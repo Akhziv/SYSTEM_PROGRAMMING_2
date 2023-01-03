@@ -89,4 +89,5 @@ class SyncCheck
     raise 'Failed to start services' unless $CHILD_STATUS.success?
   end
 
-  # Stops docker-co
+  # Stops docker-compose services
+  def stop_s
