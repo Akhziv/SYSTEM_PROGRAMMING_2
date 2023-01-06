@@ -91,4 +91,4 @@ class SyncCheck
 
   # Stops docker-compose services
   def stop_services
-    @logger.inf
+    @logger.info 'Stopping service
