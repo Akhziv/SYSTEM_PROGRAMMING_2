@@ -92,4 +92,5 @@ class SyncCheck
   # Stops docker-compose services
   def stop_services
     @logger.info 'Stopping services'
-    `docker-compose down
+    `docker-compose down`
+    raise 'Failed to st
