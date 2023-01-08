@@ -93,4 +93,7 @@ class SyncCheck
   def stop_services
     @logger.info 'Stopping services'
     `docker-compose down`
-    raise 'Failed to stop services' unless $CHILD_STA
+    raise 'Failed to stop services' unless $CHILD_STATUS.success?
+  end
+
+  # C
