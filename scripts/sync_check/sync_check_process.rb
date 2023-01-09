@@ -96,4 +96,4 @@ class SyncCheck
     raise 'Failed to stop services' unless $CHILD_STATUS.success?
   end
 
-  # C
+  # Checks if the docker-compo
