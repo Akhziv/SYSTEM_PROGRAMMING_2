@@ -97,3 +97,5 @@ class SyncCheck
   end
 
   # Checks if the docker-compose services are up
+  def services_up?
+    out
