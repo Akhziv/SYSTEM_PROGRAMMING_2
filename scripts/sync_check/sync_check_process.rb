@@ -98,4 +98,4 @@ class SyncCheck
 
   # Checks if the docker-compose services are up
   def services_up?
-    output = `docker-compose ps --ser
+    output = `docker-compose ps --services --filter "st
