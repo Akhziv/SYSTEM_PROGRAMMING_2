@@ -102,4 +102,4 @@ class SyncCheck
     $CHILD_STATUS.success? && !output.strip.empty?
   end
 
-  # logs and sends a slac
+  # logs and sends a slack message containing the error de
