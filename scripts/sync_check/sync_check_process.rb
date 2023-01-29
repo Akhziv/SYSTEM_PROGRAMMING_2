@@ -101,3 +101,5 @@ class SyncCheck
     output = `docker-compose ps --services --filter "status=running"`
     $CHILD_STATUS.success? && !output.strip.empty?
   end
+
+  # logs and sends a slac
