@@ -99,4 +99,4 @@ class SyncCheck
   # Checks if the docker-compose services are up
   def services_up?
     output = `docker-compose ps --services --filter "status=running"`
-    $CHILD_STATUS
+    $CHILD_STATUS.success? && !outpu
