@@ -102,4 +102,5 @@ class SyncCheck
     $CHILD_STATUS.success? && !output.strip.empty?
   end
 
-  # logs and sends a slack message containing the error de
+  # logs and sends a slack message containing the error description
+  def report_error(err
