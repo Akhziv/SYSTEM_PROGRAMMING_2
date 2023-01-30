@@ -103,4 +103,5 @@ class SyncCheck
   end
 
   # logs and sends a slack message containing the error description
-  def report_error(err
+  def report_error(error)
+    @logger.error e
