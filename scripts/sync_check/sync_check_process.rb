@@ -106,4 +106,4 @@ class SyncCheck
   def report_error(error)
     @logger.error error.message
     @client.post_message '💀 Sync check fiasco ❌'
-    @clie
+    @client.attach_comment error
