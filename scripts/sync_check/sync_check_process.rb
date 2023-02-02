@@ -105,4 +105,5 @@ class SyncCheck
   # logs and sends a slack message containing the error description
   def report_error(error)
     @logger.error error.message
-    @client.post_message '💀 Sync check 
+    @client.post_message '💀 Sync check fiasco ❌'
+    @clie
