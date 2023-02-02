@@ -106,4 +106,7 @@ class SyncCheck
   def report_error(error)
     @logger.error error.message
     @client.post_message '💀 Sync check fiasco ❌'
-    @client.attach_comment error
+    @client.attach_comment error.message
+  end
+
+  # Clean
