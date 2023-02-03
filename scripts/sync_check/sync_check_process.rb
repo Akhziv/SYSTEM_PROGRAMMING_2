@@ -109,4 +109,4 @@ class SyncCheck
     @client.attach_comment error.message
   end
 
-  # Clean
+  # Cleans up the sync check
