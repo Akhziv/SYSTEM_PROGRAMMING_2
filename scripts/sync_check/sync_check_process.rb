@@ -110,3 +110,5 @@ class SyncCheck
   end
 
   # Cleans up the sync check
+  def cleanup
+    @logger.info 
