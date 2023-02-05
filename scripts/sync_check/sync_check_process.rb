@@ -112,4 +112,4 @@ class SyncCheck
   # Cleans up the sync check
   def cleanup
     @logger.info 'Cleaning up sync check'
-    @client.post_message '🧹
+    @client.post_message '🧹 Cleaning up sync c
