@@ -115,4 +115,6 @@ class SyncCheck
     @client.post_message '🧹 Cleaning up sync check'
 
     stop_services
-    FileUtils.rm_rf(Dir.glob("#{FOREST_DATA
+    FileUtils.rm_rf(Dir.glob("#{FOREST_DATA}/**"))
+
+    @client.attac
