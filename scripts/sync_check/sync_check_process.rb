@@ -117,4 +117,4 @@ class SyncCheck
     stop_services
     FileUtils.rm_rf(Dir.glob("#{FOREST_DATA}/**"))
 
-    @client.attac
+    @client.attach_comment '🧹 Cleanup finished 
