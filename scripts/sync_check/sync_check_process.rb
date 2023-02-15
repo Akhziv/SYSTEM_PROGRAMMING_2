@@ -124,4 +124,4 @@ class SyncCheck
   def run
     loop do
       begin
-  
+        cleanup unless dis
