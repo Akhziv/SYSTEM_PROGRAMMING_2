@@ -120,4 +120,5 @@ class SyncCheck
     @client.attach_comment '🧹 Cleanup finished ✅'
   end
 
-  # start the 
+  # start the sync check loop
+  def ru
