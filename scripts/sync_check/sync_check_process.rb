@@ -121,4 +121,7 @@ class SyncCheck
   end
 
   # start the sync check loop
-  def ru
+  def run
+    loop do
+      begin
+  
