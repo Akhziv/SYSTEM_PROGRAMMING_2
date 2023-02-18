@@ -125,4 +125,4 @@ class SyncCheck
     loop do
       begin
         cleanup unless disk_usage < 0.8
-        sta
+        start_services unless servi
