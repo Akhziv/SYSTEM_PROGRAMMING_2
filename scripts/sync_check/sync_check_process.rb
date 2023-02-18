@@ -124,4 +124,5 @@ class SyncCheck
   def run
     loop do
       begin
-        cleanup unless dis
+        cleanup unless disk_usage < 0.8
+        sta
