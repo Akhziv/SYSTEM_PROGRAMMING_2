@@ -127,4 +127,7 @@ class SyncCheck
         cleanup unless disk_usage < 0.8
         start_services unless services_up?
       rescue StandardError => e
-        report_err
+        report_error e
+      end
+
+      # 
