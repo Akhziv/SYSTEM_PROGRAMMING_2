@@ -130,4 +130,4 @@ class SyncCheck
         report_error e
       end
 
-      # 
+      # sleep 1 hour before ch
