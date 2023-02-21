@@ -133,4 +133,8 @@ class SyncCheck
       # sleep 1 hour before checking again
       sleep 60 * 60
     end
-  en
+  end
+end
+
+#####
+SyncCheck.new.run
