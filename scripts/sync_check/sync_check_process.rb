@@ -131,4 +131,6 @@ class SyncCheck
       end
 
       # sleep 1 hour before checking again
-      sleep 6
+      sleep 60 * 60
+    end
+  en
